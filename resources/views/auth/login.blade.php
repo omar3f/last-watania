@@ -1,0 +1,76 @@
+@extends('panel.template')
+
+@section('content')
+    @if($errors->any())
+        <ul>
+            @foreach($errors->all() as $error)
+                <li class="alert alert-danger">{{ $error }}</li>
+            @endforeach
+        </ul>
+    @endif
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="login-box">
+                    <div class="login-content">
+                        <div class="login-user-icon">
+                            <i class="glyphicon glyphicon-user"></i>2
+                        </div>
+                        <h3>Identify Yourself</h3>
+                    </div>
+                    <div class="login-form">
+                        {!! Form::open(['url','/admin/login']) !!}
+
+                        <div class="input-group ls-group-input">
+                            <input class="form-control" type="email" placeholder="Email" name="email">
+                            <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                        </div>
+
+
+                        <div class="input-group ls-group-input">
+
+                            <input type="password" placeholder="Password" name="password"
+                                   class="form-control" value="">
+                            <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                        </div>
+
+                        <div class="remember-me">
+                            <input class="switchCheckBox" type="checkbox" checked data-size="mini" name="remember"
+                                   data-on-text="<i class='fa fa-check'><i>"
+                                   data-off-text="<i class='fa fa-times'><i>">
+                            <span>Remember me</span>
+                        </div>
+                        <div class="input-group ls-group-input login-btn-box">
+                            {{--{!! Form::submit('login',['class'=>'btn ls-dark-btn ladda-button col-md-12 col-sm-12 col-xs-12']) !!}--}}
+                            <button class="btn ls-dark-btn ladda-button col-md-12 col-sm-12 col-xs-12"
+                                    data-style="slide-down">
+                                <span class="ladda-label"><i class="fa fa-key"></i></span>
+                            </button>
+
+                            <a class="forgot-password" href="javascript:void(0)">Forgot password</a>
+                        </div>
+                        </form>
+                    </div>
+                    <div class="forgot-pass-box">
+                        <form action="#" class="form-horizontal ls_form">
+                            <div class="input-group ls-group-input">
+                                <input class="form-control" type="text" placeholder="someone@mail.com">
+                                <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                            </div>
+                            <div class="input-group ls-group-input login-btn-box">
+                                <button class="btn ls-dark-btn col-md-12 col-sm-12 col-xs-12">
+                                    <i class="fa fa-rocket"></i> Send
+                                </button>
+
+                                <a class="login-view" href="javascript:void(0)">Login</a> & <a class=""
+                                                                                               href="registration.html">Registration</a>
+
+                            </div>
+                        {!! Form::close() !!}
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+@stop
