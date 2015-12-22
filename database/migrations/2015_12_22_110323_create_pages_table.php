@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateSliderTable extends Migration
+class CreatePagesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,13 +12,11 @@ class CreateSliderTable extends Migration
      */
     public function up()
     {
-        Schema::create('slider', function (Blueprint $table) {
+        Schema::create('pages', function (Blueprint $table) {
             $table->increments('id');
             $table->string('title');
-            $table->text('desc');
+            $table->text('content');
             $table->string('image');
-            $table->integer('sort');
-            $table->integer('status');
             $table->timestamps();
         });
     }
@@ -30,6 +28,6 @@ class CreateSliderTable extends Migration
      */
     public function down()
     {
-        Schema::drop('slider');
+        Schema::drop('pages');
     }
 }

@@ -18,6 +18,8 @@ Route::get(/**
     return view('welcome');
 });
 
+Route::get('panel/pages/');
+
 Route::get('/panel','AdminController@index');
 Route::get('page1','AdminController@page');
 
