@@ -35,7 +35,7 @@
     <!--Page loading plugin End   -->
 
     <!-- Plugin Css Put Here -->
-    <link href="{{ asset('/assets/css/bootstrap-rtl.css') }}" rel="stylesheet">
+    <link href="{{ asset('/assets/css/bootstrap.min.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('assets/css/rtl-css/plugins/bootstrap-progressbar-3.1.1-rtl.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/rtl-css/plugins/jquery-jvectormap-rtl.css') }}">
 

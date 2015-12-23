@@ -1,856 +1,913 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ChangeListManager">
-    <list default="true" id="612765e8-5dd6-4caf-b609-099aae2fdb42" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.env.example" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/slider/11846753_776226109152889_6032081844021652391_n.jpg" afterPath="$PROJECT_DIR$/public/images/slider/11846753_776226109152889_6032081844021652391_n.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/slider/2013_iron_man_3-1920x1080.jpg" afterPath="$PROJECT_DIR$/public/images/slider/2013_iron_man_3-1920x1080.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/slider/312_1ironman_zinnphoto.jpg" afterPath="$PROJECT_DIR$/public/images/slider/312_1ironman_zinnphoto.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/slider/Iron-Man-3-Movie-HD-2013-4.jpg" afterPath="$PROJECT_DIR$/public/images/slider/Iron-Man-3-Movie-HD-2013-4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/slider/Tony-Stark-Iron-Man-3-wallpapers1.jpg" afterPath="$PROJECT_DIR$/public/images/slider/Tony-Stark-Iron-Man-3-wallpapers1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/slider/download.jpg" afterPath="$PROJECT_DIR$/public/images/slider/download.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/blade.xml" afterPath="$PROJECT_DIR$/.idea/blade.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Requests/SliderCreateReqest.php" afterPath="$PROJECT_DIR$/app/Http/Requests/SliderCreateReqest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Requests/admin.php" afterPath="$PROJECT_DIR$/app/Http/Requests/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Slider.php" afterPath="$PROJECT_DIR$/app/Slider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_12_20_150120_create_social_table.php" afterPath="$PROJECT_DIR$/database/migrations/2015_12_20_150120_create_social_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_12_20_170723_create_slider_table.php" afterPath="$PROJECT_DIR$/database/migrations/2015_12_20_170723_create_slider_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/private/private.properties" afterPath="$PROJECT_DIR$/nbproject/private/private.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/private/private.xml" afterPath="$PROJECT_DIR$/nbproject/private/private.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/project.properties" afterPath="$PROJECT_DIR$/nbproject/project.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/project.xml" afterPath="$PROJECT_DIR$/nbproject/project.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/panel/pages/admins.blade.php" afterPath="$PROJECT_DIR$/resources/views/panel/pages/admins.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/panel/pages/edit_slide.blade.php" afterPath="$PROJECT_DIR$/resources/views/panel/pages/edit_slide.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/panel/pages/new_slide.blade.php" afterPath="$PROJECT_DIR$/resources/views/panel/pages/new_slide.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/panel/pages/newadmin.blade.php" afterPath="$PROJECT_DIR$/resources/views/panel/pages/newadmin.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/panel/pages/slider.blade.php" afterPath="$PROJECT_DIR$/resources/views/panel/pages/slider.blade.php" />
-    </list>
-    <ignored path="watania.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <ignored path=".idea/dataSources.local.xml" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
-  <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-  <component name="FavoritesManager">
-    <favorites_list name="watania" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.3333335">
-              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Page.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Page.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.6666665">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PagesController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Pages/PagesController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.3333335">
-              <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="all.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/panel/pages/all.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.029363785">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2015_12_22_111147_create_links_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2015_12_22_111147_create_links_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2015_12_22_113232_edit_links_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2015_12_22_113232_edit_links_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.666667">
-              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Link.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Link.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/panel/template.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.206897">
-              <caret line="175" column="9" selection-start-line="175" selection-start-column="9" selection-end-line="175" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/resources/views/panel/pages/page1.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/panel/pages/profile.blade.php" />
-        <option value="$PROJECT_DIR$/config/app.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_12_17_101424_creata_maindata_table.php" />
-        <option value="$PROJECT_DIR$/resources/views/panel/pages/editmaindata.blade.php" />
-        <option value="$PROJECT_DIR$/app/MainData.php" />
-        <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
-        <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_12_20_143158_create_social_table.php" />
-        <option value="$PROJECT_DIR$/app/Http/Requests/SocialRequest.php" />
-        <option value="$PROJECT_DIR$/resources/views/panel/pages/maindata.blade.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_12_20_150120_create_social_table.php" />
-        <option value="$PROJECT_DIR$/app/Social.php" />
-        <option value="$PROJECT_DIR$/resources/views/panel/pages/social.blade.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_12_20_170723_create_slider_table.php" />
-        <option value="$PROJECT_DIR$/app/Http/Requests/admin.php" />
-        <option value="$PROJECT_DIR$/resources/views/panel/pages/newadmin.blade.php" />
-        <option value="$PROJECT_DIR$/app/Slider.php" />
-        <option value="$PROJECT_DIR$/resources/views/panel/template.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/panel/pages/new_slide.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Requests/SliderCreateReqest.php" />
-        <option value="$PROJECT_DIR$/resources/views/panel/pages/edit_slide.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/panel/pages/admins.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" />
-        <option value="$PROJECT_DIR$/resources/views/panel/pages/slider.blade.php" />
-        <option value="$PROJECT_DIR$/.env.example" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_12_22_110323_create_pages_table.php" />
-        <option value="$PROJECT_DIR$/app/Page.php" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_12_22_111147_create_links_table.php" />
-        <option value="$PROJECT_DIR$/app/Link.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_12_22_113232_edit_links_table.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/resources/views/panel/pages/all.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Pages/PagesController.php" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <gulpfiles>
-      <GulpfileState>
-        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
-      </GulpfileState>
-    </gulpfiles>
-  </component>
-  <component name="PhpServers">
-    <servers />
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="-4" />
-    <option name="width" value="1301" />
-    <option name="height" value="772" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="watania" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="watania" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="watania" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="watania" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="watania" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="watania" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="watania" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="panel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="watania" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="watania" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="panel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="watania" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="watania" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="auth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="watania" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="watania" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="watania" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="watania" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="temp&#9;FILE&#9;file:///var/www/html/watania/resources/views/panel/template.blade.php&#10;route&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/app/Http/routes.php&#10;slider&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/resources/views/panel/pages/slider.blade.php&#10;admin&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/app/Http/Controllers/AdminController.php&#10;adminc&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/app/Http/Controllers/AdminController.php&#10;rout&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/app/Http/routes.php&#10;slide&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/resources/views/panel/pages/slider.blade.php&#10;admins&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/resources/views/panel/pages/admins.blade.php&#10;edit&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/resources/views/panel/pages/edit_slide.blade.php&#10;edi&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/resources/views/panel/pages/edit_slide.blade.php&#10;ed&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/resources/views/panel/pages/edit_slide.blade.php&#10;adminCon&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/app/Http/Controllers/AdminController.php&#10;rou&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/app/Http/routes.php&#10;rp&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/app/Http/routes.php&#10;adm&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/app/Http/Controllers/AdminController.php&#10;a&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/app/Http/Controllers/AdminController.php&#10;SliderCrea&#9;null&#9;null&#10;dmi&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/app/Http/Controllers/AdminController.php&#10;slid&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/resources/views/panel/pages/new_slide.blade.php&#10;style.css&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/public/assets/css/style.css&#10;templ&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/resources/views/panel/template.blade.php&#10;auth&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php&#10;sli&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/resources/views/panel/pages/slider.blade.php&#10;create_slide&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/database/migrations/2015_12_20_170723_create_slider_table.php&#10;create_s&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/database/migrations/2015_12_20_150120_create_social_table.php&#10;co&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/app/Http/Controllers/AdminController.php&#10;ad&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/app/Http/Controllers/AdminController.php&#10;config/sess&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/config/session.php&#10;aad&#9;null&#9;null&#10;A&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/resources/views/panel/pages/admins.blade.php&#10;te&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/resources/views/panel/template.blade.php&#10;soc&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/resources/views/panel/pages/social.blade.php&#10;soci&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/app/Http/Requests/SocialRequest.php&#10;create_&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/database/migrations/2015_12_20_143158_create_social_table.php&#10;socia&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/resources/views/panel/pages/social.blade.php&#10;tem&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/resources/views/panel/template.blade.php&#10;main&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/resources/views/panel/pages/maindata.blade.php&#10;mai&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/resources/views/panel/pages/maindata.blade.php&#10;t&#9;FILE&#9;file:///media/mr-x/Web/admin panel/admincp_gamdha fash5/login.html&#10;ro&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/app/Http/routes.php&#10;log&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/resources/views/auth/login.blade.php&#10;regi&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/resources/views/auth/register.blade.php&#10;au&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/app/Http/Controllers/Auth/AuthController.php&#10;lo&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/resources/views/auth/login.blade.php&#10;ta&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/resources/views/panel/pages/maindata.blade.php&#10;re&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/resources/views/auth/register.blade.php&#10;aut&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/config/auth.php&#10;auth.php&#9;FILE&#9;file:///var/www/html/nerds-arena/watania/config/auth.php&#10;Main&#9;null&#9;null" />
-    <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
-      <BehatRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <pass-parent-envs>true</pass-parent-envs>
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
-      <scripts />
-      <envs />
-      <method />
-    </configuration>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="612765e8-5dd6-4caf-b609-099aae2fdb42" name="Default" comment="" />
-      <created>1450281313817</created>
-      <option name="number" value="Default" />
-      <updated>1450281313817</updated>
-    </task>
-    <servers />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18601076" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43432835" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout>
-  </component>
-  <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
-    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-      <collection />
-    </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="62" column="60" selection-start-line="62" selection-start-column="60" selection-end-line="62" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/MainData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/panel/template.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="269" column="66" selection-start-line="269" selection-start-column="66" selection-end-line="269" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/panel/pages/maindata.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/lib/jqueryui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1891892">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/panel/pages/profile.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.4324324">
-          <caret line="1094" column="57" selection-start-line="1094" selection-start-column="57" selection-end-line="1094" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4031008">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.8918918">
-          <caret line="188" column="65" selection-start-line="188" selection-start-column="65" selection-end-line="188" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45945945">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3243243">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35135135">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/MainData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21621622">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="9" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/Request.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/MainDataRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/panel/pages/maindata.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4549125">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/SocialRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43243244">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61507404">
-          <caret line="148" column="6" selection-start-line="148" selection-start-column="6" selection-end-line="148" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_12_20_150120_create_social_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5135135">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Social.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31493944">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/panel/pages/editmaindata.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10497981">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="63" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_12_17_101424_creata_maindata_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55989236">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/panel/pages/social.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08108108">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="51" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.054054055">
-          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27027026">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="63" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_12_20_170723_create_slider_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3783784">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6298789">
-          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7297297">
-          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4054054">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Slider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3499327">
-          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/panel/pages/newadmin.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35135135">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/panel/pages/new_slide.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24324325">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/SliderCreateReqest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08108108">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/panel/pages/edit_slide.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5135135">
-          <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/panel/pages/slider.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8918919">
-          <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/panel/pages/admins.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3167028">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_12_22_110323_create_pages_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.740741">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Link.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_12_22_111147_create_links_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_12_22_113232_edit_links_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.666667">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.3333335">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/panel/template.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.206897">
-          <caret line="175" column="9" selection-start-line="175" selection-start-column="9" selection-end-line="175" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6666665">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Pages/PagesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3333335">
-          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/panel/pages/all.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.029363785">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-  </component>
-</project>
+include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449231544.313975
+   },
+   "COqb5kR55Ec72mooazelgb4meMxDgmAXcjzj97UUYgY=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1478538219.374794,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1447434219.374804
+   },
+   "EWyWCluqIhusN2kNdrewoWWzqnmwgnmf8Pr26IEA7Ok=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480625484.00098,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449089484.000988
+   },
+   "EcSMDLtNeNwzcArCKJqC+m0nNFsPv2fdyja0zhD3JQk=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480625030.31264,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1449089030.312654
+   },
+   "G1R5Q+H3MAjRn0TmeaohlZvRgDFJA8gfQUqC6U1fNqk=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1459960009.245352,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449073609.245364
+   },
+   "GZ/C3tIzx5cWAxfTEIunFWXQyCz1L2XDjHlJTZxOTcM=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1464640566.750728,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1449088566.750746
+   },
+   "HAQUuXfu537zU7KYHpXzn/KyAnWZ3HaZ8OQ5+VEzi5A=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480547741.821908,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1449011741.82192
+   },
+   "HPXs3GafhYipg7axIAEGG2E5Ht/GBPiU3baKxONTGdg=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480639849.28938,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1449103849.2894
+   },
+   "Ht+I9kyY6bBrULvbYX0gKV5BEIyEGyy2Crt7Q7ets0Q=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480768605.679668,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449232605.679682
+   },
+   "I6OIzKjEb4gZqT23qMPmdLUlRF5dSPkH8AowflMSWts=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480641311.31637,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449105311.316384
+   },
+   "IMmEq4iiOVkkaBC6vUyjv31jqS9XCQXEnmyFYZ7MREE=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480648606.275432,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449112606.27544
+   },
+   "IOm8EqmCuxTAkUzf220T3cMBmvINcTbr5fs5zRrRP2s=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480597723.162616,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449061723.162626
+   },
+   "Ifty0kmGtBkqpzyRNEJ2iccvLpOffAEtEf72UjNCr0U=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480681603.684964,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1449145603.684976
+   },
+   "KgcVAiamOlm5MdD+qgCF86AsnzEoXW/lt/kALjOX0sw=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1478904095.067958,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1447368095.067972
+   },
+   "KyWdfpBwZKzyLAWHwPW4pM2e5RFa9p6SRKBboLuVz1k=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480625007.584804,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449089007.584816
+   },
+   "LAZkYS46RVRcFiZAzmUJrz6TJHBd4nwE6VxPWfPLYHs=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1460119004.79491,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449232604.794923
+   },
+   "LKUaHMrOKSVhELf+LPIZHlT7vNAFEjcqbFbCHilSTpc=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1460037154.935408,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1449150754.93542
+   },
+   "LWu10MRHJlFnTgcgpXX/kU11NkXR3EGlL59iAEXOdHo=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1459864773.487256,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1448978373.487268
+   },
+   "LXmLsICeNii7OaZG1u+ByPBLby3XYdTSErC3di8Kbrg=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1459879184.513124,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1448992784.513138
+   },
+   "Lb57fTxCwv0PAfU/J9KYKkBnP+mXM8at7vSQI7kFLUQ=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1464050981.363064,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1448282981.363076
+   },
+   "LiLEWffspUltnfAhJzESWFLgimDkb3zT2iumfBRd2GQ=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1464784417.408746,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449232417.408758
+   },
+   "MLI8cUirPRwCPWD3shcMtclNsKO25ZskEfvOH/iQHTs=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1478827447.168492,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1447291447.16851
+   },
+   "MZS/FDxLmQfYhFRf1BRRtj3jbryrIoHKg2muYG3Qyng=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480639772.806476,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1449103772.806492
+   },
+   "Ms7G0lIsDe43hW7guJX7yICAhVR4Gwn5LRaEqeLF9S0=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480624981.816884,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449088981.816894
+   },
+   "NYADXKwtySGRA6XNs2RGYE89mXc9sRev741L2Vxjh7U=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480420281.593276,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1448884281.593292
+   },
+   "OJAwwDug+gPr+xWjx2kFIFhHDQULu5ljftVMMZ74I4o=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480641463.994488,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1449105463.9945
+   },
+   "Q+FCtpiGM4NLKIfE4hEPfLkVmtda48FEGW4SDDtrSq0=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480378212.562608,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1448842212.562618
+   },
+   "QeSzD5dq5oodB/+3hEQDwlYoKwwwIoSO2GP3gpFFtkI=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1478537671.09072,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1447433671.090732
+   },
+   "RTnBLoXFKta+ALJYbWcXsakkkOFXIQseivtkFfWKEuQ=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480547302.234042,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449011302.234056
+   },
+   "TZmujbl93Yt3JI8wZ4X/zjkA0WFNGNW44A+o7h4YyHw=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1464785306.931224,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449233306.931235
+   },
+   "UlNcjkZx7inSKI906+rNuwK7JCc/5nd6lVB0cwVtRvE=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1478999687.482652,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1447463687.482664
+   },
+   "VLEniNq/VZSCoLVShrbBGzeFtvfFLvvrx5kpar5YCyk=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480624233.375984,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449088233.375992
+   },
+   "VuFipg0ZoErC+qQEgQqGIfJpr68HTlyLwBnDULGWs78=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480769184.322275,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1449233184.322289
+   },
+   "W5cBfONqguT94dGUcbjpttbEx1QlmiVoG5l79UhJm50=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1463825362.235512,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1448705362.23553
+   },
+   "WY3qIgBb6O89YCaF2Wzt45+ycraO/sus3KbnKPSzdGs=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1463364361.959632,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1447596361.959642
+   },
+   "XOQLzqdQxNgMj/4MVc4Rpg9bCVZob5H6tbzVJkKXVZA=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480768009.390945,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449232009.390955
+   },
+   "YkShQ/gtROgeLN+DIPuXqOKZPnlNzRZ2CaurTbeKmUQ=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1464216403.069492,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1449096403.069504
+   },
+   "Ys0HNSGXiADUmLlDPvLa798haoANeoTYjHBSUMr0ZQs=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480149977.920234,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1448613977.920248
+   },
+   "YyDtaEvJi6enzVw6y5F2Wra72tg0nuOsO/Msd+ctdVQ=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480625066.72142,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449089066.72143
+   },
+   "ZXWdgdLebG1nezm1CP5bLoFp4hK22OzvpamC5I04w7Q=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1478818055.09514,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1447282055.095152
+   },
+   "a3B8SKjLD5tirvmv/z7o9v4o14J4mMF9RqvzuL7/H4M=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480640593.56813,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449104593.568142
+   },
+   "aTYIy2IA2t6Szh3TYg3AchWWZUC0EMhzVuuXr8olGaU=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480686567.646022,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1449150567.646036
+   },
+   "bD6C97uNFL6dVgKO2E7xjf6zfv5jMV8xYiqe5be6Cto=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480624086.857514,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449088086.857524
+   },
+   "bVzOnu6xyelN8iVLDSbFjyZVgXrXDyLSokjnq2hdUFs=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480681563.654796,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1449145563.654816
+   },
+   "buhlMYX0CPW3JY7EAu887PjKPOU+/ZJ37/OE3M/xAEg=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480378213.82706,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1448842213.827068
+   },
+   "byJnD7W9Mx8LHTg87NhfNAVb6wVviZ9Gk57EUIujF/8=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480623991.500228,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449087991.50024
+   },
+   "cDVjgLSpfN16jJtIfvuEtmHugMDl/bAGnVJKsAkCi+g=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1479864342.468768,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1448328342.46878
+   },
+   "cVgnImbHHJ6Fd8IrJ8kVeUB2nmR0OZ6WqjOLqqLpKlk=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1464641038.257564,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449089038.257576
+   },
+   "crP/Hu1mWdNRwXwPwkTcr0UcrNDBxPPLkkhm6ypvfS8=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480656865.236004,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449120865.236012
+   },
+   "dIsI2buJU03Gk+THOFWmwxSsKSozjiKfCZJTx8Jn9aI=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480681561.239416,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1449145561.23943
+   },
+   "df0sSkr4gOg4VK8d/NNTAWFtAN/MjCgPCJ5ml+ucdZE=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480632169.3416,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449096169.341608
+   },
+   "dpH6wAqHaLli170UrAxgA8bhCm9jBPmJ185mxXRyqYE=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480542263.802196,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449006263.802208
+   },
+   "hna3k092zP9eFFss3SRgFCtW29tkfempipyrLMAy3IM=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1478984101.537676,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1447448101.537688
+   },
+   "ikavGXVEl/ywGxRyO7GK30mlynxZ7gVSVZcWBTcHEPY=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1464780942.551036,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449012942.551048
+   },
+   "jEkU5A4GidhYsdqfVOKLfOY6neEW/PIQ94Z2rmtjKGQ=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1463825368.558458,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1448705368.55847
+   },
+   "jNMIEPbAtg0OrZ9jFa9o9F1lYOOrMH693o1PPiQ6jtk=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1478999655.620068,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1447463655.620084
+   },
+   "jV9fW5gTxpN7gMHOb59TdTiJX+sX6mhIOpMRKrav4wY=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1452552092.145682,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1447368092.145696
+   },
+   "jX8kPTkMM+qXwp7WX5b7tK2kFZpKqAYnXSuRq3o3YYI=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1463518395.679632,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1447447995.679648
+   },
+   "jnZHPu0XpiTtrRQoTUtTzhvVLYegeHAKXucPJklFap8=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480376292.956068,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1448840292.956088
+   },
+   "kTBZlNzaAygsyUNLLJvF9CS33eqAcPjUb75PGjCOtnM=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480681586.189408,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449145586.189422
+   },
+   "kkB5ib/+M7npcrRR7ZcVsOzujXBba6S9s0C/7USAGao=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480597723.235484,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449061723.2355
+   },
+   "l7WmzPDHKZOY7F1OcATMaGTtqvYZ+ALbTrCCp3Do5ks=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1459966986.23538,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449080586.23539
+   },
+   "lhvBef4nCbrdMN8UxAompmrqLcxARPz4Of07FqKunug=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480601431.896558,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449065431.896568
+   },
+   "m6y8avAK3Qo4rwFvxnRQqDK8rxHYRn2SQZ411sHsns8=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480632326.66659,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1449096326.666608
+   },
+   "myxca24Fg7L/IgePD/QeLaUxbyYNmJdOyLPYvlVtjPE=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1460037132.058604,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1449150732.058618
+   },
+   "naWqqUdAJIRK8OMVCtjmpzRPIM+NAoDML7W1+r+x130=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480375447.047468,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1448839447.04748
+   },
+   "oQ6+t1g6TPt7CUrgPdsEFAtVe9XB61yf/ooY/rDxKVc=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480622933.394608,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1449086933.394626
+   },
+   "pAeQiaOZFpByHIRj2kaBn4mijk96Lu4PlLRX+1rSmXs=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480420082.359656,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1448884082.359668
+   },
+   "pEZAH1R+KXynHkSq2HWR3H0naJYvEDcpC0Gm79htXTk=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1463830656.2913,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1448278656.291316
+   },
+   "pghPxF7JCJ2Gzq7EZ78EhQldaD5iM1flRYkGsv/lAjs=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1464784417.643264,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449232417.643279
+   },
+   "qOq9d3Vj/FCJMQBeLoGIOe5T74snNp8yRtzOZDIEwwo=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480681556.214152,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449145556.214164
+   },
+   "qhho/D1qDV6hvx/GGmUTp8nZm5PifNR4TxZHME+a0Ic=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480378213.359286,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1448842213.359296
+   },
+   "qmryyxKKV1aWjQpnq4q0cBmDn9q6bAe/rqoUpkHTbyY=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1464640567.312188,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1449088567.312204
+   },
+   "qqTR1IiTQiCQxwyg1TPI2iPm2+KcbsvsgFfQcCdvRiM=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1464437500.939284,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1448885500.9393
+   },
+   "qxkchWM7Rn9X5vtN3oi8LBQT7v8MxhDqrfz6aAguuPw=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1464780428.99344,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449012428.993452
+   },
+   "qzzTTr5z22ldPXGDc/CC5Xg8gSlyUOIyHz4q0lu8Bi0=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480601442.328088,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449065442.328096
+   },
+   "rUaGsQTnE8Nn7aGuDFM01g66n6l5EUhPtaLfEvzEJWI=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1479864160.46243,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1448328160.46244
+   },
+   "rW+wYIpa775r/ltnG64XJN/3ymSAvf9uipSc/e4oDpM=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480527403.655628,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1448991403.65564
+   },
+   "rivSPtiRPseL9HjGuYocIr+ets59we/Sgm/VkGSpC+c=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1478999120.32616,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1447463120.326174
+   },
+   "sBFjUWOqBJzPH6u2oHU2C8KZhUFk3OczwEjFIcLfHm8=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480624232.534466,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449088232.534476
+   },
+   "t4P2CEBz3oL9ns14psRvXLZ5JbYnOSSmw7/wMEsyesU=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480615029.976836,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1449079029.97685
+   },
+   "tGm+XsbBPK211uMWtg2k071vijQkuVLvd62QzfNFol8=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480172719.87573,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1448636719.875744
+   },
+   "thMjbolJ5AZnXIuu4siA0yoV9FjhVuMojNoxbeQHM/w=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480248293.421696,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1448712293.421708
+   },
+   "tsr62egQ2Ke9lnt89nvtpR7wblulG2wHiNcXrA/pQhM=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480687075.57142,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449151075.571432
+   },
+   "tvK3W464PY1imtjJPs9Cks/UgtVTSMi4nntkiG5YJT4=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480625002.459792,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449089002.4598
+   },
+   "uHkymP+mDR+rXSgoXWqQEn9HwK697vRZ5kIuHbAKiDY=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1464543139.540144,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1448991139.54016
+   },
+   "uNfvUt9wcGOdvQswJ5+gwvHPmJg1MwJM0hcvr55MSR8=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1463565043.25724,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1448013043.25726
+   },
+   "v4f3J8a58Bbz0sCnDnA3A1xAhEqzKt15z1EQU0foKXY=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480625038.017432,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449089038.017442
+   },
+   "vZbE6Xu4ousnTkHMwnGx6/MPhx7xFQF304pjzg3PgGw=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1464189186.972648,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1448637186.972664
+   },
+   "vfOfIzO182P+C5rz+0lrCuuYXZ3sQFdq0qm6SKdxFpE=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480624564.160046,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1449088564.16006
+   },
+   "vyv3j2yV/XY5GNbDm8+6qjM9N3n72DDqx0VtAqlfr50=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1463015224.066184,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1447463224.066196
+   },
+   "wVq7foF8UA+OUTg5AX+rcpZ4zMXPGgQtM8nYXL4G3bo=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1463518408.648104,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1447448008.64812
+   },
+   "wqWdUCrcQWc6FL5qwlIDD+kSSf2eAaENAD19U7J3Hwk=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480768608.124116,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449232608.124126
+   },
+   "wxLan4nKdk5nJRJwA3u63pEj6cJCTHDmV6mZrtoaTHQ=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480501144.395784,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1448965144.395794
+   },
+   "x1AjYHZ5h50RPRLt9TzPTCHcyQl7bU6QTc/ZQRh5yLQ=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480626031.526324,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449090031.526336
+   },
+   "xUKsZRWAyWgZnGfhnojQdcUqGorMLwrd1vjF0ZKiriU=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480501147.388532,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1448965147.388544
+   },
+   "y4zyHKU2eOa95LOa+px9lyaeDARLzgzUkafD8396CpY=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1479550365.993544,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1448014365.993558
+   },
+   "yjjWRNGrK0m92yJmNp/3bh8/euRD1zuKMUmcjtezjTs=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1464640692.796808,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1449088692.79682
+   },
+   "z+90QJR3jqrGGNyS1H2jlnZDQ0klrrmyNpstd6997W4=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1452624363.755246,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1447368363.755256
+   },
+   "zT2yfhXnvFIT0l2WlyrtGvGo8Nad75m8nLqfTnk6/SU=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1480632434.960564,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1449096434.960572
+   }
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          Ÿ’˘ °c◊   Î5√   q                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+2  ÷Çòr‚\:‘¥íˆR∏BBBBò““                                                                                                                         2 c                                                                                               Ac h a n n e l _ s u b : 9 Ië~             !s p _ p i _…Ac h a n n e l _ s u b : 6 VOAc h a n n e l _ s u b : 1 _ı!Ec h a n n e l _ s u b : 3 1 MmAc h a n n e l _ s u b : 3 Tå!Ec h a n n e l _ s u b : 2 9 _ˆ!Ec h a n n e l _ s u b : 3 2 _˜!Ec h a n n e l _ s u b : 2 8 ^˛!Ec h a n n e l _ s u b : 2 0 QÌ!Ec h a n n e l _ s u b : 1 9 @Æ$ 5mR T C _ C A L L _ S U M M A R Y _ s u m m a r y ^¬)Uf b _ s o u n d s _ p l a y i n g 3 _÷!Ec h a n n e l _ s u b : 1 4 \±Ac h a n n e l _ s u b : 0 V   t                                                                                   ^                            =}_ c s _ m a r a u d e r _ l a s t _ s e s s i o n _ i d _¡)Y	C a c h e S t o r a g e V e r s i o n Î5≠    ¥  K S K*À ÔÜ√                                                     eÅøA}`_ c s _ m a r a u d e r _ l a s t _ s e s s i o n _ i d _ @ _ 1 5 1 6 c f a c f 2 3 - b 9 9 c 9 7 ê ;                                                       7ÅøuA@c h a n n e l _ s u b : 1 1 4 4 9 2 3 3 3 4 1 7 7 7 Ç$ÅøI!Ñ8s p _ p i { " p a g e I n f o " : { " s c r i p t P a t h " : " / h o m e . p h p " , " c a t e g o r y T o k e n " : " 2 2 c c d f 4 3 " , " e x t r a D a t a " : { " i m p _ i d " : " e 6 b f 8 9 2 9 " } } , " c l i c k P o i n t " : n u l l , " t i m e " : 1 4 4 9 2 3 2 4 0 3 5 0 0 } 9ÅΩ~E@c h a n n e l _ s u b : 2 8 1 4 4 9 1 8 4 1 9 1 2 8 2    ;                                                       Å6ÅøVUÇ(f b _ s o u n d s _ p l a y i n g 3 [ 1 4 4 9 2 2 9 9 3 0 5 1 6 , 1 4 4 9 2 2 9 9 7 8 1 8 7 , 1 4 4 9 2 3 2 0 9 3 0 2 9 , 1 4 4 9 2 3 2 3 1 9 9 7 9 , 1 4 4 9 2 3 2 6 5 2 9 3 4 ] 9ÅøvE@c h a n n e l _ s u b : 2 9 1 4 4 9 2 3 3 3 2 3 1 7 4 9ÅøwE@c h a n n e l _ s u b : 3 2 1 4 4 9 2 3 3 3 4 3 7 7 7 Î56   SQLite format 3   @    FX   q   `   l                                                   FX -Ê¸ ¢ ¢ü                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  Åz!11Ét a b l e I t e m T a b l e I t e m T a b l e C R E A T E   T A B L E   I t e m T a b l e   ( k e y   T E X T   U N I Q U E   O N   C O N F L I C T   R E P L A C E ,   v a l u e   B L O B   N O T   N U L L   O N   C O N F L I C T   F A I L ) [!}1 i n d e x s q l i t e _ a u t o i n d e x _ I t e m T a b l e _ 1 I t e m T a b l e    Î5√                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Ÿ’˘ °c◊   
+¢ÖS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               Ø   	 V  V ≈E◊3zjÆ                                                            fó°î¸€åÃj /!		rwww.theglocal.comJSESSIONID/ .Ñß˘„L∆v10+º6CøˇoôãL’m¯.÷»åÙ›ÛßüU,∑9¢∏%_èœŸ‘≥*Ô*MÖwó°î¸ﬂÎæ/ -				Å.doubleclick.netIDE/ .∂çgÏÔ .Ñ®;”€âv10cˆªƒˇx¿èΩW±√F4Ú
+»ˇ5!#Htu}CÛ?éu”ƒT;/êÔ7=ﬂ(˛jËäBÜÏgøh.%†Åó°î¸ﬂÙ√Z )			Å2.theglocal.com__gads/ .æ‰û  .Ñ®:
+Ov10ª	´¸≠…≤[´˛9[Îô¬"!fÒ»Õ¬nF„yY˚¨&ÅAÙ∑Iïj¶[“läﬂfí´∆_Ñ»&f«l‡˘îA¨a'|Úò
+Ö˛ò¯°ïÁÿ$Só°î¸‚ê∏ %			R.youtube.comPREF/ .æ‰j+Ä .Ñ®7©çŒv10+s@‘¯¥Ô◊e§x…3|€:8+*Ñµ¨©º°º–f>ó°î˝ø’Ñ* '		2.facebook.comc_user/ .Ñ®<\—}v10C]M!È§ ß>Eπˇ¡ãsÅó°î˝ø’Ö5 '				Å2.facebook.comfr/ .ã∫U≠µ .Ñ®:ÈÑv10éô4„ﬁ ∆€~∂†v¬ç∏…ÈÇÚr‘Kq^≥ÇP˘ö*°ıâ.pRJÍ{^ÎÌ2œ∂.ˇ{åDûµqÖ_Ù”ojeÏΩõ-@Èœl:2Ê ®Zó°î˝ø’Ü# '			r.facebook.comxs/ .Ñ®:ÈÑv10¸Õme`≈dy‹Í)æ ƒmÙË•¨0ÿ#¥‰¡ù^Â¡F¶z∞Iô[∏¶€]µ"’Ÿ;ó°î˝ø’Ü{ '	2.facebook.comcsm/ .Ñ®<\—}v10V;‡Ñ~dedÔ’Ìı¶Ió°î˝ø’áJ '			R.facebook.coms/ .Ñ®:ÈÑv10«1≈2f+ò™TGëK€UÏYÔ·dúu≥\Jﬁ{Ñ¢Üó   4^  £w˚^©≤¨                                                                                                                                                                                                                                                                 Uó°îˇÉÛµM +				Rplus.google.comOTZ/ .áo≠¡@ .Ñ®=oy˚v10P9aUw¯‡’÷ŒåÂ7Zvç/ì2Í 0Ò›"VS{ó°îˇ ˆñ+ /			Å.w.soundcloud.com__utma/ .æy–Ä .Ñß˘]ã+v10ÃÌΩQö∑æÈ’ﬁ3õ9_*öÛ^Ü7Ì·≥∑yé˜ìyÅl@æOΩæ·}“ï5d(‘fk9€°›±Ôtª÷Zó°îˇ ˆò{ /			R.w.soundcloud.com__utmb/ .Ñ®dõ‚Ä .Ñß˘]å{v10I\-)„2EÎí3"Î4Ô¡©ZUTà.ßc";VıuÏŒBó°îˇ ˆõ! /	2.w.soundcloud.com__utmc/ .Ñß˘]ç°v10n˛|{ùÕ†MCì'A¸pÅ+ó°îˇ ˆ†o /			År.w.soundcloud.com__utmz/ .íˇ?\ Ä .Ñß˘]êov10' ãJ!TN¢Vt¨{é ˜¨‰XÖtZ3C°¶_§©'TbûÁ ÿGª^oß¯œaå’hYÑú_Qö*Ò˘{æ¥ñ˝÷Ag†s‚è:èÍæÑı Ãì§Û°ê~≤®∂T§Dºÿ=   E                                                                 Tó°î˛ª„„ )			R.theglocal.com_ga/ .æˇò-Ä .Ñ®:
+Ov10FK“‰ñîòÖ™âÖ≤ÎDe&5∆~ì~1ı5Ê÷˜5pÕN¢Ü/   !
+   > $0<HT`lxÑêú®¥¿Ãÿ‰¸ ,8DPåò§∞º»‘‡Ï¯(4@LXdp|àî†¨∏‹Ë\htÄ–Ùƒ                                                                                                                                                   .ÑîàL .ÑîP–9 .Ñîa¨s .ÑîÖ‰ .Ñî	Î, .Ñî	ˇ)Ó .ÑîQ˝¨ .ÑîÍèê .ÑîÒCW .ÑîÒSÃi .ÑîÒqö¯ .Ñî¸Xê .Ñï˙$œ .Ñï¸3U .Ñïcà .Ñïñ .Ñï⁄^ .Ñï-·* .Ñó%H∂¿ .Ñó%¸#b .Ñó'æã .Ñó'∆m¬ .Ñó<âΩÚ .Ñújlá» .Ñúƒzê˚ .Ñúƒõ¡7 .Ñú≈g?w .Ñß◊ıB* .Ñß◊ıC# .Ñß◊ıC{ .Ñß◊ıC  .Ñßî˝Ú .Ñß4Y .Ñßö‹≈ .Ñß≤@¯ .ÑßÀK .Ñßs˚ .Ñß`Ω .ÑßöÙF .Ñßãó .Ñß
+©X .ÑßòGé .ÑßòG› .ÑßòHO .ÑßòH∞ .Ñß¢1≠ .Ñß¢2A .Ñß¢2ö .Ñß¥Õ∏ .Ñß+˚, .Ñß,I .Ñß,)é .Ñß,IF .Ñß,Kb .Ñß,K˛ .ÑßX#) .ÑßX3˛
+ .Ñ®<l<C .Ñß˘]ç° .Ñß≤dtG .ÑßÀc&j .Ñ®ÏZG¢Ü6      _° ±5u                                                                                                                                                                                                                                                         Gó°î˘Õ⁄% -			2.khanacademy.org_gat/ .Ñß¡‘!¿ .Ñßπº¥êv10wL/◊¿áàÓ'Ñ]∏9œ<9ó°î˚ìëËG '	2.facebook.comp/ .Ñ®:É›wv10˜v≥‚Ò˘œ&∑‘VVó°î˚º∆ı! -			R.khanacademy.org_ga/ .æœ¨Ä .Ñß∑ë∫°v10Må+Nÿ£G∞«È‡ˇŸ*„qÖP¨á„ˇ]G.ï•9Å'ó°î˚º¸àO 3Å-			Rwww.khanacademy.orgreturn_visits_http%3A%2F%2Fid.khanacademy.org%2Fe14347b4f21b4028b34613d1813f4557/ .æœª^¿ .Ñß∑üOv10}íÍÏ∆ëÀÍ¢∫ı?µuåÀﬂŒÜ®O¡R‘ÌD8le{ó°î˚Ω˘Õ 3			Åwww.khanacademy.orgki_t/ /$ëÏ„@ .Ñß∑æfáv10∫sÇxx4 Uy·÷ƒ¨Ÿ'¿ÔÔ“cz!xHÇΩ2?@Å}9∫Ë2≠‹¥©Ï°≤à—0…ß–GÆd/)„Xs≠’≤∏7ó°î˚Ω˘Ù+ 3			www.khanacademy.orgki_r/ /$ëÏ„@ .Ñß∑æz+Åó°î˚Œ…ã% 3!			Åwww.khanacademy.orgka_session/ .°VEÊ%• .Ñßπ“E•v10åè:’»–¿ÁMY≤-hBê˚˚bê”Ø´˘56∆˝ëWBvÈŸ4^Í˙·ÛhSpñÀÆV√A˘@*eÏ§¿¢á   Ω
+     ‹ º£qX?&’ ‹äÓ
+%<SjÅòØ∆›˜ ı0OlÉúµŒÁÁÁ                                                                                                                                                '.facebook.com .Ñ®ÏZG%.feedjit.com .Ñt‡∫Æ«'.facebook.com .Ñs%tt'.facebook.com .Ñß◊ıC{'.facebook.com .Ñß◊ıC#'.facebook.com .Ñß◊ıBµ'.facebook.com .Ñß◊ıB*'.facebook.com .Ñ®<l<C'.facebook.com .Ñß≤dtG'.facebook.com .Ñ ^eQ'.facebook.com .Ñß◊ıC -.famouslogos.net .ÑV_öı+.famouslogos.us .ÑV_ñP#.fanpage.it .É≈uÊ™#.fanpage.it .É∆!Yº#.fanpage.it .É∆˚√5#.fanpage.it .ÉÜï»hä#.fanpage.it .ÉÜï»k#.fanpage.it .ÉÜï»l#.fanpage.it .ÉÜï‘∑l#.fanpage.it .ÉÜï¯âe).fastclick.net .Ñ/öGŸÛ).fastclick.net .Ñ]\Øû3.fidelity-media.com .Ñ F≈ä˙3.fidelity-media.com .Ñ F≈ãË/.flashtalking.com .ÉıÁ°ì#.flattr.com .Éã)'.flexjobs.com .ÉN’¬≈'.flexjobs.com .ÉN÷Ì'.flexjobs.com .ÉN÷—'.flexjobs.com .ÉNˇÙ÷'.flexjobs.com .ÉNˇ˚.¢Ü≠  
+L "0 4H\pÑò¨¿‘Ë¸`àú‰–º®ît¯ 8ÿƒl0D$∞ÄXLL                                                                                                                                                                                                                               .Ñ®6ùK .Ñ®6ùK .Ñ®:⁄‘ .Ñ®:⁄‘ .Ñ®<l<C .Ñ®<l<C .Ñ®0D .Ñ®0D .Ñ®.wéÒ .Ñ®.wéÒ .Ñß◊ıC  .Ñß◊ıC  .Ñß◊ıC{ .Ñß◊ıC{ .Ñß◊ıC# .Ñß◊ıC# .Ñß◊ıBµ .Ñß◊ıBµ .Ñß◊ıB* .Ñß◊ıB* .Ñß|⁄Õ .Ñß|⁄Õ .ÑßÃD .ÑßÃD .Ñß˘]ã+ .Ñß˘]ã+ .ÑßåÍP .ÑßåÍP .ÑßåÎ .ÑßåÎ .Ñßåt™ .Ñßåt™ .Ñßå/G÷ .Ñßå/G÷ .ÑßçÁ- .ÑßçÁ- .Ñßûm% .Ñßûm% .Ñß≤dtG .Ñß≤dtG .Ñß∑ë∫° .Ñß∑ë∫° .Ñß∑üO .Ñß∑üO .Ñß∑æfá .Ñß∑æfá .Ñß∑æz+ .Ñß∑æz+ .Ñßπ“E• .Ñßπ“E• .Ñ®ÏZG .Ñ®ÏZG .Ñß˘]å{ .Ñß˘]å{Ï                  .ÑßÀc&j .ÑßÀc&j .ÑßÁxÒÉ .ÑßÁxÒÉ .ÑßÀ˙ﬂ/ .ÑßÀ˙ﬂ/ .ÑßÀ˝!⁄ .ÑßÀ˝!⁄ .Ñ®.wé& .Ñ®.wé& .Ñß˘]êo .Ñß˘]êo .Ñß˘]ç° .Ñß˘]ç°                   ¢Öé  ˙    ö                                                                                                                                                                                                                                                                   Éó°ïÉ„∞¯C '		Ö2.facebook.compresence/ .Ñ®<l<Cv10ı^ìΩ”`˘uÖÀ™5ÅLÇPßÅk≈êƒVÔx©LÙ÷∑Fë›–ßÕ1”&Æ±a—œÇn]'ı≠úP˝O%∂=Í9	≤]X˙Ö4Cd(|9z«Ω¿A…õ√LÓÛhû'©ë¿÷"ìõ!Ôˆdí˛ Ü~ŒjG?î’g±«€ˆ)Œ¸¥:}ò˚àÒ÷∑[ÒŒ„é¨y;±zËîVº/˚Càò,JÍ#p£EíØΩÁoÖ£¶´újV®¿c¬Cb‹æÂ˚(u≤k“ºÖ12^Q¢ß÷OOÏEÊuúJOA8†ˇTm:®.i_8X˜,¶>ôÕ∞»5ÿ©<f≈ã\ Û'Ë/yﬂh≠[Ûz`öFx°9sŒﬂãødX}∞€Ot»}ÓâJπlÆ¶QËGú:–™,›ëøc0èAå¡lÅ°Î≠”;ñÎ∏uê”B« ¥îê>Ä0—Ç\ó°ïÇÛﬁùq +				ÑRlocalhostlaravel_session/ .Ñ©€û÷Ò .Ñ®.wéÒv10í˚
+u˝1†ÁWJ˜‚Æ;¬ Õò6]>Øu-‹¨õºƒzaUC¿ìY·Vñ`W™Ω…áU»÷%Ωã /€4‰cèI!j≥Ë%1AU6∂ÒévÖ”Í˘[o4:é «àÖ˙ˆ–m>;ŸvÕ"®íW∂öP˘.o.rd¿È,ﬂ*ñ	íƒﬁ£O•|ô5Ä‘∑VÛı°XÇ1‘†°¸™lÑ∫Ú)≈.)éí‰lÜÈÇ|+∆©q“èUVO<,÷0K+∂7*G∂¥dêÑ¥6Z(®Œïhë¨„É0ÿLî©˛ÆFä<OÀSp◊º~Ô0ÒπŸ0ÿ!G˜øN(å(õ—®—\Ç=0‘ÕryÄ/=.ì‹√äAVƒû!œ,Ñ’B¥ˆˆ™?5—U≥¡¢Ü˝   ‚   6 6ëÔKüü                                                                                                                                                                                                                                                                                                  Ró°ïÄÿ∏‡D %			R.mailtrap.io_ga/ .æ#-¨¿ .Ñ®695v10ºÙl¡K√®>⁄õ1TõÙôäã¨ÇAf[≤X‰¯C^ﬂUó°ïÄŸ⁄∫K )			R.uservoice.comuvts/ .°[vìËÀ":true,"options_page":"https://drive.google.com/drive/settings","permissions":["background","clipboardRead","clipboardWrite","notifications","unlimitedStorage"],"update_url":"https://clients2.google.com/service/update2/crx","version":"14.1"},"page_ordinal":"n","path":"apdfllckaahabafndbhieahigkjlhalf/14.1_1","preferences":{},"regular_only_preferences":{},"state":1,"was_installed_by_default":true,"was_installed_by_oem":false},"bepbmhgboaologfdajaanbcjmnhjmhfn":{"disable_reasons":1,"state":0},"blpcfgokakmgnkcojhhkbfbldkacnbeo":{"ack_external":true,"active_permissions":{"api":[],"manifest_permissions":[]},"app_launcher_ordinal":"z","commands":{},"content_settings":[],"creation_flags":153,"events":[],"from_bookmark":true,"from_webstore":true,"granted_permissions":{"api":[],"manifest_permissions":[]},"incognito_content_settings":[],"incognito_preferences":{},"install_time":"13091239300689944","lastpingday":"13093257600129802","location":1,"manifest":{"app":{"launch":{"container":"tab","web_url":"http://www.youtube.com"},"web_content":{"enabled":true,"origin":"http://www.youtube.com"}},"current_locale":"en_US","default_locale":"en","description":"","icons":{"128":"128.png"},"key":"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDC/HotmFlyuz5FaHaIbVBhhL4BwbcUtsfWwzgUMpZt5ZsLB2nW/Y5xwNkkPANYGdVsJkT2GPpRRIKBO5QiJ7jPMa3EZtcZHpkygBlQLSjMhdrAKevpKgIl6YTkwzNvExY6rzVDzeE9zqnIs33eppY4S5QcoALMxuSWlMKqgFQjHQIDAQAB","manifest_version":2,"name":"YouTube","update_url":"http://clients2.google.com/service/update2/crx","version":"4.2.8"},"page_ordinal":"n","path":"blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.8_1","preferences":{},"regular_only_preferences":{},"state":1,"was_installed_by_default":true,"was_installed_by_oem":false},"coobgpohoikkiipiblmjeljniedjpjpf":{"ack_external":true,"active_permissions":{"api":[],"manifest_permissions":[]},"app_launcher_ordinal":"x","commands":{},"content_settings":[],"creation_flags":153,"events":[],"from_bookmark":true,"from_webstore":true,"granted_permissions":{"api":[],"manifest_permissions":[]},"incognito_content_settings":[],"incognito_preferences":{},"install_time":"13091239299985746","lastpingday":"13093257600129802","location":1,"manifest":{"app":{"launch":{"web_url":"http://www.google.com/webhp?source=search_app"},"urls":["*://www.google.com/search","*://www.google.com/webhp","*://www.google.com/imgres"]},"current_locale":"en_US","default_locale":"en","description":"The fastest way to search the web.","icons":{"128":"128.png","16":"16.png","32":"32.png","48":"48.png"},"key":"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIiso3Loy5VJHL40shGhUl6it5ZG55XB9q/2EX6aa88jAxwPutbCgy5d9bm1YmBzLfSgpX4xcpgTU08ydWbd7b50fbkLsqWl1mRhxoqnN01kuNfv9Hbz9dWWYd+O4ZfD3L2XZs0wQqo0y6k64n+qeLkUMd1MIhf6MR8Xz1SOA8pwIDAQAB","manifest_version":2,"name":"Google Search","permissions":[],"update_url":"http://clients2.google.com/service/update2/crx","version":"0.0.0.60"},"page_ordinal":"n","path":"coobgpohoikkiipiblmjeljniedjpjpf/0.0.0.60_1","preferences":{},"regular_only_preferences":{},"state":1,"was_installed_by_default":true,"was_installed_by_oem":false},"eemcgdkfndhakfknompkggombfjjjeno":{"active_permissions":{"api":["bookmarks","bookmarkManagerPrivate","metricsPrivate","systemPrivate","tabs"],"explicit_host":["chrome://favicon/*","chrome://resources/*"],"manifest_permissions":[]},"commands":{},"content_settings":[],"creation_flags":1,"events":[],"from_bookmark":false,"from_webstore":false,"incognito_content_settings":[],"incognito_preferences":{},"initial_keybindings_set":true,"install_time":"13091239273621735","location":5,"manifest":{"chrome_url_overrides":{"bookmarks":"main.html"},"content_security_policy":"object-src 'none'; script-src chrome://resources 'self' blob: filesystem:","description":"Bookmark Manager","icons":{},"incognito":"split","key":"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQcByy+eN9jzazWF/DPn7NW47sW7lgmpk6eKc0BQM18q8hvEM3zNm2n7HkJv/R6fU+X5mtqkDuKvq5skF6qqUF4oEyaleWDFhd1xFwV7JV+/DU7bZ00w2+6gzqsabkerFpoP33ZRIw7OviJenP0c0uWqDWF8EGSyMhB3txqhOtiQIDAQAB","manifest_version":2,"name":"Bookmark Manager","permissions":["bookmarks","bookmarkM .Ñ®6ùKv107$”9?o4SüØÂÇcn⁄à˜ M~äWg=ëÍqƒSó°ïÄŸÎµT %			R.mailtrap.iouvts/ .°jµÛÄ .Ñ®695v107$”9?o4SüØÂÇcn⁄à˜ M~äWg=ëÍqƒKó°ïÄˇ±¥G '	R.facebook.comact/ .Ñ®:Óüv10iÉ√ºo›íî;Ì9CD‡∆s«C∑_f™A¬•†ÇWó°ïÇÛﬁú& !			ÑRlocalhostXSRF-TOKEN/ .Ñ©€û÷& .Ñ®.wé&v102tÕ∂"`#eáXOhéö›J¿"\#§1T‘œ,îéZ˘e—°Zb≤ÑﬁµÆ9g‰≤;˙Œˇ£≤´C`ΩÛ"<‰¸ñw« 8èˆ‡wé0ƒ£s†¸¿–$dº”®i≥%Pfcm‹ë?Y∆A∆ŸÁÇ«ÃzÔôÂ∫„Ÿ=∆D]+Ï~Ô®)úß„T¶ ‚…÷§£€aäÉ„=Ç<€˚uû0}ì·œ5§ß]b¢ÉSgE(àcàÿﬂ3U)ˇ¥Îûúãí"˝ ¬ßŸg(vR›ˇÌ/„ëµﬂuÀí¯í∞6ÓÀ67B¶ótÏv¿D‚FÀÅ¥Õ◊6…LnÎ>´BJk¥©º™÷†LwÕ†q:ö◊ŸÃûN%Â„L\\FºœZ˘ã¢Üå  Q¶  ú ± ú´0™‚ôô                                                                                                                                  pó°é¥Ë€º2 !3			r.watsi.orgoptimizelyEndUserId/ /£D≈€{Ä .Ñsk¥îTv10ô*Ù¿8≥˜ã£ÿ˝Á+BÏΩöòÔªﬁ=˚µ‚ÖU%™ 2.88â≈Gïª÷¡n∆§Åó°é¥È‹‘ I!			Å.1554601291.log.optimizely.combucket_map/ /£D≈˝Í .Ñs\p%v10VZ™Q®bì‰Sµ≠Î˘¸X<»bF
+T`tˇp˙@cŒ#Fsú{$ øë‹ß’ªÈ∆#tÓô≤dÇRt´mù|ó°é¥È‹’+ I#			r.1554601291.log.optimizely.comend_user_id/ /£D≈˝Í´ .Ñs\p%v10ô*Ù¿8≥˜ã£ÿ˝Á+BÏΩöòÔªﬁ=˚µ‚ÖU%™ 2.88â≈Gïª÷¡n∆§mó°é¥Ìâ≠  !-			r.watsi.orgajs_anonymous_id/ .°!Ÿ±Ô¿ .Ñsk¥îTv10øÑ]ÖÃ[4ÑÜ∫Ø)Æü‚”,qÍ∫6>îıéÛ<òõb,l°ÆNÀ¢˛≤%©7±
+˙ Gó°é¥Ôô¥y #			2.pr

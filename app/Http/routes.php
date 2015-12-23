@@ -18,7 +18,10 @@ Route::get(/**
     return view('welcome');
 });
 
-Route::get('panel/pages/');
+// Routing for links createion
+Route::resource('/panel/links', 'Panel\LinksController');
+
+//Route::get('panel/pages/');
 
 Route::get('/panel','AdminController@index');
 Route::get('page1','AdminController@page');
@@ -59,5 +62,5 @@ Route::post('/auth/login','Auth\AuthController@postLogin');
 Route::get('/auth/logout','Auth\AuthController@getLogout');
 
 // authentication Register
-/*Route::get('/auth/register','Auth\AuthController@getRegister');
-Route::post('/auth/register','Auth\AuthController@postRegister');*/
+Route::get('/auth/register','Auth\AuthController@getRegister');
+Route::post('/auth/register','Auth\AuthController@postRegister');
