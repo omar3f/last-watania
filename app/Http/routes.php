@@ -18,8 +18,18 @@ Route::get(/**
     return view('welcome');
 });
 
-// Routing for links createion
+// Routing for links creation
 Route::resource('/panel/links', 'Panel\LinksController');
+Route::get('/panel/links/visibility/{id}', 'Panel\LinksController@toggleVisibility');
+
+//Routing for sections creation
+Route::resource('/panel/sections', 'Panel\SectionsController');
+
+//Routing for products creation
+Route::resource('/panel/products', 'Panel\ProductsController');
+Route::get('/panel/products/create', function() {
+    return 'Hi from router';
+});
 
 //Route::get('panel/pages/');
 

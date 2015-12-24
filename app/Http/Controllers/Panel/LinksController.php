@@ -9,43 +9,13 @@ use App\Http\Controllers\Controller;
 
 class LinksController extends Controller
 {
-    /**Takes an array of objects and creates an associative array out of it
-     * You should specify the key value pairs as the second argument
-     *
-     * (optional) Add an array as the third argument to get it prepended to the returned array
-     * (optional) Add an array as the fourth argument to get it appended to the returned array
-     * @param $arr_obj
-     * @param $key_val
-     * @param array $prepend
-     * @param array $append
-     * @return array
-     */
 
-    protected function dropdown_generator($arr_obj, array $key_val, array $prepend = [], array $append = []) {
-        $new_arr = $prepend;
-        foreach($arr_obj as $item) {
-            foreach ($key_val as $key => $val) {
-                $new_arr[$item[$key]] = $item[$val];
-
-            }
-        }
-        foreach ($append as $append_key => $append_val) {
-            $new_arr[$append_key] = $append_val;
-
-        }
-        return $new_arr;
-
-    }
     public function index()
     {
         //Getting all parent links
-        $parent_links = (new \App\Link)->where('parent_id','=' ,0)->orderBy('sort')->get();
-
-        //Getting all nested links
-        $child_links =  (new \App\Link)->where('parent_id', '>', 0)->orderBy('sort')->get();
-
+        $links = (new \App\Link)->orderBy('sort')->get();
         //Returning the view and passing all links to it
-        return view('panel.links.all', compact('parent_links', 'child_links'));
+        return view('panel.links.all', compact('links'));
     }
 
     /**
@@ -59,7 +29,7 @@ class LinksController extends Controller
         $links = (new \App\Link)->where('parent_id', '=', '0')->get();
 
         //Generating the dropdown list for parent pages as follows ['0' => 'No Parent', '1' => 'First Parent']
-        $dropdown_links = $this->dropdown_generator($links, ['id' => 'title'], ['0' => 'No Parent']);
+        $dropdown_links = dropdown_generator($links, ['id' => 'title'], ['0' => 'No Parent']);
 
         //returning the create view with the dropdown list variable
         return view('panel.links.create', compact('dropdown_links'));
@@ -105,7 +75,7 @@ class LinksController extends Controller
         $links = (new \App\Link)->where('parent_id', '=', '0')->get();
 
         //Generating the dropdown list for parent pages as follows ['0' => 'No Parent', '1' => 'First Parent']
-        $dropdown_links = $this->dropdown_generator($links, ['id' => 'title'], ['0' => 'No Parent']);
+        $dropdown_links = dropdown_generator($links, ['id' => 'title'], ['0' => 'No Parent']);
 
         return view('panel.links.edit', compact('link', 'dropdown_links'));
     }
@@ -140,5 +110,12 @@ class LinksController extends Controller
         //Redirecting to index so the admin can view the changes
         return redirect()->action('Panel\\LinksController@index');
 
+    }
+
+    public function toggleVisibility($id) {
+        $old_visibility = (new \App\Link)->find($id)->visibility;
+        $new_visibility =  ($old_visibility-1) * -1;
+        (new \App\Link)->find($id)->update(['visibility' => $new_visibility]);
+        return redirect()->action('Panel\\LinksController@index');
     }
 }

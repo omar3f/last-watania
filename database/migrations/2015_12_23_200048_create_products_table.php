@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateLinksTable extends Migration
+class CreateProductsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,11 +12,16 @@ class CreateLinksTable extends Migration
      */
     public function up()
     {
-        Schema::create('links', function (Blueprint $table) {
+        Schema::create('products', function (Blueprint $table) {
             $table->increments('id');
-            $table->text('link');
             $table->text('title');
+            $table->text('description');
+            $table->text('image');
+            $table->integer('section_id')->unsigned();
             $table->timestamps();
+        });
+        Schema::table('products', function (Blueprint $table) {
+            $table->foreign('section_id')->references('id')->on('sections');
         });
     }
 
@@ -27,6 +32,6 @@ class CreateLinksTable extends Migration
      */
     public function down()
     {
-        Schema::drop('links');
+        Schema::drop('products');
     }
 }

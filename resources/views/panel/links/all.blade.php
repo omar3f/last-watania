@@ -1,74 +1,79 @@
-{{--@extends('panel.template')--}}
+@extends('panel.template')
 
-{{--@section('content')--}}
-    {{--<div class="row">--}}
-        {{--<div class="col-sm-6">--}}
-            {{--<h1>Your Links</h1>--}}
-            {{--({!! Html::link(action('Panel\\LinksController@create'), 'Create a new link') !!})--}}
-            {{--<hr>--}}
-        {{--</div>--}}
-    {{--</div>--}}
-    {{--<div class="row ">--}}
-        {{--<div class="col-sm-12">--}}
-            {{--@foreach($parent_links as $parent_link)--}}
-            {{--<div class="row">--}}
-                {{--<div class="col-sm-6">--}}
-                    {{--{!! Html::link($parent_link->link, $parent_link->title) !!}--}}
+@section('content')
 
+    <div class="row">
+    <div class="col-sm-6">
+    <h1>Your Links</h1>
+    {!!  Html::link(action('Panel\\LinksController@create'), 'Create a new link', ["class" => "btn btn-primary"])  !!}
+    <hr>
+    </div>
+    </div>
+    <table class="table table-bordered">
+        <tbody>
+        <tr>
+            <td>#</td>
+            <td>Title</td>
+            <td>Parent</td>
+            <td>Status</td>
+            <td>Action</td>
+        </tr>
 
-                {{--</div>--}}
-
-                {{--<div class="col-sm-1">--}}
-                    {{--{!! Form::open(["method" => "delete", "class" => "form-inline", "action" => ["Panel\\LinksController@destroy", $parent_link->id]]) !!}--}}
-                        {{--{!! Form::submit('Delete', ["class" => 'btn btn-danger']) !!}--}}
-                    {{--{!! Form::close() !!}--}}
-
-
-
-                {{--</div>--}}
-                {{--<div class="col-sm-1">--}}
-                    {{--{!! Html::link((action('Panel\\LinksController@edit', $parent_link->id)),'Edit', ["class" => "btn btn-primary"]) !!}--}}
-
-                {{--</div>--}}
-            {{--</div>--}}
-                {{--<div class="child-links">--}}
-                {{--@foreach($child_links as $child_link)--}}
-                    {{--@if($child_link->parent_id == $parent_link->id)--}}
-
-
-                        {{--<div class="row">--}}
-                            {{--<div class="col-sm-3 col-sm-push-1">--}}
-                                {{--{!! Html::link($child_link->link, $child_link->title) !!}--}}
-                            {{--</div>--}}
-                            {{--<div class="col-sm-1">--}}
-                                {{--{!! Form::open(["method" => "delete", "class" => "form-inline", "action" => ["Panel\\LinksController@destroy", $child_link->id]]) !!}--}}
-                                {{--{!! Form::submit('Delete', ["class" => 'btn btn-danger']) !!}--}}
-                                {{--{!! Form::close() !!}--}}
-                            {{--</div>--}}
-                            {{--<div class="col-sm-1">--}}
-                                {{--{!! Html::link((action('Panel\\LinksController@edit', $child_link->id)),'Edit', ["class" => "btn btn-primary"]) !!}--}}
-                            {{--</div>--}}
-
-                        {{--</div>--}}
-                        {{--<hr>--}}
-
-
-                    {{--@endif--}}
-                {{--@endforeach--}}
-                {{--</div>--}}
-                {{--<br>--}}
-            {{--@endforeach--}}
-
-
-        {{--</div>--}}
-    {{--</div>--}}
-
-{{--@endsection--}}
-
-{{--@section('scripts')--}}
-    {{--<script>--}}
+            @foreach($links as $link)
+            <tr>
+                <td>{{ $link->id }}</td>
+                <td>{{ $link->title }}</td>
+                <td>{{ $link->parent_id ? (new App\Link)->find($link->parent_id)->title : '' }}</td>
+                <td>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <a href="{{action('Panel\\LinksController@toggleVisibility', $link->id) }}" style="text-decoration: none">
+                            {!! $link->visibility ? "<span class=\"label label-success\">Show</span>" : "<span class=\"label label-warning\">Hide</span>"  !!}
 
 
 
-    {{--</script>--}}
-{{--@endsection--}}
+                            </a>
+                        </div>
+
+                    </div>
+
+                </td>
+
+                <td>
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <a class="btn btn-primary" href="{{ action('Panel\\LinksController@edit', $link->id) }}">
+                                <span class="fa fa-edit"></span>
+                            </a>
+                        </div>
+                        <div class="col-sm-2">
+                            {!!  Form::open(["method" => "delete", "action" => ["Panel\\LinksController@destroy", $link->id], "class" => "form-inline"])  !!}
+                            <button class="btn btn-danger"><span class="fa fa-trash"></span></button>
+                            {!! Form::close() !!}
+                        </div>
+                        <div class="col-sm-2">
+
+                        </div>
+
+                    </div>
+
+
+
+                </td>
+            </tr>
+            @endforeach
+
+
+
+        </tbody>
+    </table>
+
+@endsection
+
+@section('scripts')
+    <script>
+
+
+
+    </script>
+@endsection

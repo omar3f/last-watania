@@ -4,7 +4,7 @@ namespace App\Http\Requests;
 
 use App\Http\Requests\Request;
 
-class CreateEditLinksRequest extends Request
+class CreateEditSectionsRequest extends Request
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -13,7 +13,7 @@ class CreateEditLinksRequest extends Request
      */
     public function authorize()
     {
-        return true;
+        return false;
     }
 
     /**
@@ -25,11 +25,6 @@ class CreateEditLinksRequest extends Request
     {
         return [
             //
-            'link' => 'required',
-            'title' => 'required',
-            'visibility' => 'required',
-            'parent_id' => 'required',
-            'sort' => 'required|numeric'
         ];
     }
 }

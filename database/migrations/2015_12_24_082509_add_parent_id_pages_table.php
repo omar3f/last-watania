@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class AddParentToLinksTable extends Migration
+class AddParentIdPagesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,8 +12,7 @@ class AddParentToLinksTable extends Migration
      */
     public function up()
     {
-        Schema::table('links', function (Blueprint $table) {
-            //
+        Schema::table('pages', function (Blueprint $table) {
             $table->integer('parent_id');
         });
     }
@@ -25,7 +24,7 @@ class AddParentToLinksTable extends Migration
      */
     public function down()
     {
-        Schema::table('links', function (Blueprint $table) {
+        Schema::table('pages', function (Blueprint $table) {
             //
         });
     }
