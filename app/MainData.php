@@ -7,7 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 class MainData extends Model
 {
     protected $table='maindata';
-    protected $fillable = array('logo','favicon','websitename','phone','mail','address');
+//    protected $fillable = array('logo','favicon','websitename','phone','mail','address');
+    protected $fillable = ['key', 'value'];
 
 
     public static function findOrCreate($key){

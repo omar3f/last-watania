@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Panel;
 
+use \App\Helpers\StoreFile;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -10,6 +11,10 @@ use App\Http\Controllers\Controller;
 class SectionsController extends Controller
 {
 
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
 
     /**
      * Display a listing of the resource.
@@ -41,12 +46,23 @@ class SectionsController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
+     * @param Requests\CreateEditSectionsRequest $request
+     * @param StoreFile $storeFile
+     * @param \App\Section $section
+     * @return \Illuminate\Http\RedirectResponse
      */
-    public function store(Requests\CreateEditSectionsRequest $request)
+    public function store(Requests\CreateEditSectionsRequest $request, StoreFile $storeFile, \App\Section $section)
     {
-        (new \App\Section)->create($request->all());
+        //Creating and moving the file image
+        $image_path         = $storeFile->move($request->file('image'), 'public/images/sections/', 16);
+
+        //Adding the image file path to the array of request
+        $modified_request   = array_merge($request->except('image'), ['image' => $image_path]);
+
+        //Storing
+        $section->create($modified_request);
+
+        //Redirect
         return redirect()->action('Panel\SectionsController@index');
     }
 

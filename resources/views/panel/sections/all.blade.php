@@ -27,9 +27,9 @@
                 <td>{{ $section->id }}</td>
                 <td>{{ $section->title }}</td>
                 <td>{{ $section->description }}</td>
-                <td>{{ $section->image }}</td>
+                <td><img src="{{ asset($section->image) }}" alt="" width="50%"></td>
                 <td>{!! (new \App\Page)->find($section->page_id)->title !!}</td>
-                <td>{{ $section->parent_id ? (new App\Section)->find($section->parent_id)->title : '' }}</td>
+                <td>{{ $section->parent_id ? (new App\Section)->find($section->parent_id)->title : 'No Parent' }}</td>
 
                 <td>
                     <div class="row">
@@ -43,7 +43,14 @@
                             <button class="btn btn-danger"><span class="fa fa-trash"></span></button>
                             {!! Form::close() !!}
                         </div>
+                        <div class="col-sm-2">
+
+                        </div>
+
                     </div>
+
+
+
                 </td>
             </tr>
         @endforeach
@@ -56,9 +63,5 @@
 @endsection
 
 @section('scripts')
-    <script>
 
-
-
-    </script>
 @endsection

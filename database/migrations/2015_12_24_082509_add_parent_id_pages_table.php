@@ -13,7 +13,6 @@ class AddParentIdPagesTable extends Migration
     public function up()
     {
         Schema::table('pages', function (Blueprint $table) {
-            $table->integer('parent_id');
         });
     }
 

@@ -27,9 +27,13 @@ Route::resource('/panel/sections', 'Panel\SectionsController');
 
 //Routing for products creation
 Route::resource('/panel/products', 'Panel\ProductsController');
-Route::get('/panel/products/create', function() {
-    return 'Hi from router';
-});
+
+//Routing for public site
+Route::resource('products'  ,    'Site\ProductsController' ,       ['only' => ['index', 'show']]);
+Route::resource('sections'  ,    'Site\SectionsController' ,       ['only' => ['index', 'show']]);
+Route::resource('pages'     ,    'Site\PagesController'    ,       ['only' => [         'show']]);
+Route::get('contact', 'Site\ContactController@contact');
+Route::post('contact', 'Site\ContactController@email');
 
 //Route::get('panel/pages/');
 
