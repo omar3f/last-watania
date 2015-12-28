@@ -21,6 +21,7 @@ Route::get(/**
 // Routing for links creation
 Route::resource('/panel/links', 'Panel\LinksController');
 Route::get('/panel/links/visibility/{id}', 'Panel\LinksController@toggleVisibility');
+Route::get('/panel/menu', 'Panel\MenuController@menu');
 
 //Routing for sections creation
 Route::resource('/panel/sections', 'Panel\SectionsController');
