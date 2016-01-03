@@ -18,6 +18,8 @@
             <td>Image</td>
             <td>Page</td>
             <td>Parent</td>
+            <td>Home</td>
+
             <td>Action</td>
 
         </tr>
@@ -26,11 +28,22 @@
             <tr>
                 <td>{{ $section->id }}</td>
                 <td>{{ $section->title }}</td>
-                <td>{{ $section->description }}</td>
-                <td><img src="{{ asset($section->image) }}" alt="" width="50%"></td>
-                <td>{!! (new \App\Page)->find($section->page_id)->title !!}</td>
+                <td>{!!  $section->description  !!}</td>
+                <td><img src="{{ asset($section->image) }}" alt="" width="20%"></td>
+                <td>{!! $section->page ? $section->page->title : '' !!}</td>
                 <td>{{ $section->parent_id ? (new App\Section)->find($section->parent_id)->title : 'No Parent' }}</td>
+                <td>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <a href="{{action('Panel\\SectionsController@toggleVisibility', $section->id) }}" style="text-decoration: none">
+                                {!! $section->home ? "<span class=\"label label-success\">Show</span>" : "<span class=\"label label-warning\">Hide</span>"  !!}
 
+                            </a>
+                        </div>
+
+                    </div>
+
+                </td>
                 <td>
                     <div class="row">
                         <div class="col-sm-2">

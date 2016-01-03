@@ -21,4 +21,7 @@ class Link extends Model
     public function getVisibleChildren() {
         return $this->children($this->id)->orderBy('sort')->visible()->get();
     }
+    public function links() {
+        return $this->parents()->visible()->orderBy('sort')->get();
+    }
 }

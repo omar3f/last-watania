@@ -52,7 +52,7 @@ class ProductsController extends Controller
     public function store(Requests\CreateEditProductsRequest $request, StoreFile $storeFile, \App\Product $product)
     {
         //Creating and moving the file image
-        $image_path         = $storeFile->move($request->file('image'), 'public/images/products/' , 16);
+        $image_path         = $storeFile->move($request->file('image'), 'images/products/' , 16);
 
         //Adding the image file path to the array of request
         $modified_request   = array_merge($request->except('image'), ['image' => $image_path]);
@@ -84,6 +84,7 @@ class ProductsController extends Controller
     public function edit($id)
     {
 
+
         $product = (new \App\Product)->find($id);
         $sections = (new \App\Section)->orderBy('id')->get();
         $dropdown_sections = dropdown_generator($sections, ['id' => 'title']);
@@ -98,9 +99,20 @@ class ProductsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, $id, StoreFile $storeFile, \App\Product $product)
     {
-        //
+        //Creating and moving the file image
+        $image_path         = $storeFile->move($request->file('image'), 'public/images/products/' , 16);
+
+        //Adding the image file path to the array of request
+        $modified_request   = array_merge($request->except('image'), ['image' => $image_path]);
+
+        //Storing
+        $product->find($id)->update($modified_request);
+
+        //Redirect
+        return redirect()->action('Panel\ProductsController@index');
+
     }
 
     /**
@@ -111,6 +123,8 @@ class ProductsController extends Controller
      */
     public function destroy($id)
     {
-        //
+        (new \App\Product)->destroy($id);
+        return redirect()->action('Panel\ProductsController@index');
+
     }
 }

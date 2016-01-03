@@ -1,0 +1,394 @@
+.top-bar {
+    min-height: 30px;
+    background: #fff;
+}
+
+.top-bar .contacts ul {
+    margin: 0;
+}
+
+.top-bar .contacts ul li {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.top-bar .contacts ul li:nth-child(2) {
+    margin-left: 10px;
+}
+
+.top-bar .contacts ul li:nth-child(1) {
+    border-right: 2px solid #f2f2f2;
+    padding: 0 10px;
+}
+
+.top-bar .contacts ul li span {
+    font-family: co;
+    font-size: 18px;
+}
+
+.social ul {
+    margin: 0;
+}
+
+.social ul li {
+    display: inline-block;
+    border-right: 1px solid #f2f2f2;
+    width: 45px;
+    text-align: center;
+}
+
+.social ul li:nth-child(1) {
+    border-left: 1px solid #f2f2f2;
+}
+
+.social ul li a {
+    color: #afaba8;
+    text-align: center;
+    padding: 0 5px;
+}
+
+.social ul li a .fa {
+    line-height: 50px;
+}
+
+.navbar-default {
+    margin-top: 20px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid #a6d2dd;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.navbar-brand {
+    height: auto;
+    min-height: 50px !important;
+    padding: inherit;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background: none;
+}
+
+.short-desc {
+    margin-bottom: 50px;
+
+}
+
+.desc {
+    margin-top: 50px;
+    padding: 0 20px;
+}
+
+.desc p {
+    color: #A87474;
+    font-family: Menlo;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.desc .poster {
+    text-align: center;
+}
+
+.blocks {
+    border-bottom: 2px solid #f5f5f5;
+    padding-bottom: 30px;
+}
+
+.block {
+    height: 550px;
+    overflow: hidden;
+}
+
+.block .p-head {
+    background: #006aa6;
+    padding: 50px 0;
+}
+
+.block .p-head h3 {
+    margin: 0;
+}
+
+.block .p-head h3 a {
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: bold;
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.block .p-head p {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-style: 15px;
+}
+
+.block > h3 > a:hover {
+    color: #0da9e4;
+}
+
+.data {
+    position: relative;
+    top: 0%;
+    bottom: 0%;
+}
+
+.more-data {
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0%;
+    opacity: 0;
+    background: #7192bd;
+    padding: 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+.data:hover .more-data {
+    opacity: 1;
+}
+
+.more-data h3 {
+    text-align: center;
+    color: #ddd;
+    text-transform: capitalize;
+}
+
+.data .more-data p {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+.data img {
+    height: 300px;
+    width: 100%;
+}
+
+footer {
+    /*margin-top: 50px;*/
+    background: #414141;
+
+}
+
+footer .f-block {
+    min-height: 330px;
+    text-align: center;
+    padding-top: 85px;
+}
+
+footer .f-block ul li {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #fff;
+}
+
+footer .social-media h3 {
+    color: #fff;
+}
+
+footer .social-media ul {
+    text-align: center;
+}
+
+footer .social-media ul li {
+    margin: 2%;
+    text-align: center;
+    display: inline-block;
+}
+
+footer .social-media ul li a.youtube {
+    color: #cd452f;
+    font-size: 18px;
+}
+
+footer .social-media ul li a.facebook {
+    color: #3b5894;
+    font-size: 18px;
+}
+
+footer .social-media ul li a.twitter {
+    color: #0da9e4;
+    font-size: 18px;
+}
+
+/*--------------------- section page---*/
+.con-head {
+    background: rgb(233, 233, 233);
+    padding: 25px 0;
+    display: none;
+}
+
+.con-head img {
+    width: 100%;
+    height: 200px;
+}
+
+.sec-data {
+    margin-top: 20px;
+}
+
+.sec-data h2 {
+    text-transform: capitalize;
+    color: #726C6C;
+}
+
+p.sec-desc {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    line-height: 35px;
+    text-align: justify;
+    color: #7F7C7C;
+}
+
+.sec-sups {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sec-sups .nav-pills > li {
+    font-size: 15px;
+    float: inherit;
+    display: inline-block;
+}
+
+.products-head {
+    border-bottom: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+    background: #f5f5f5;
+    margin-top: 20px;
+    min-height: 30px;
+    overflow: hidden;
+
+}
+
+.products-head .sec-name {
+    background: rgb(233, 233, 233);
+    padding: 15px;
+    height: 50px;
+    display: inline-block;
+    font-size: 16px;
+    text-transform: capitalize;
+    float: left;
+    margin-right: 20px;
+}
+
+.products-head p {
+    color: #7F7C7C;
+    font-size: 14px;
+    padding-top: 15px;
+    margin: 0;
+    display: inline;
+}
+
+.breadcrumb {
+    display: inline-block;
+    padding-top: 15px;
+    margin-bottom: 0;
+}
+
+.products {
+    padding: 50px 0;
+    background: rgb(233, 233, 233);
+
+}
+
+.product {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 25px;
+}
+
+.product-poster {
+    margin-bottom: 20px;
+}
+
+.product-poster img {
+    width: 100%;
+    height: 150px;
+}
+
+.product-details a {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.product span{
+    font-size: 30px;
+    color: #5A6772;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: capitalize;
+}
+.product  h1{
+    color:  #726C6C;
+    text-transform: capitalize  ;
+    margin: 0 0 10px 0;
+}
+.product p.p-desc{
+    line-height: 30px;
+    color: #7F7C7C;
+}
+
+.product-details p {
+    font-size: 17px;
+    color: #7F7C7C;
+}
+
+.album .main-img {
+    height: 350px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: rgb(233, 233, 233);
+    margin-bottom: 20px;
+}
+
+.album .main-img img {
+    width: 100%;
+    height: 329px;
+}
+
+.album ul li img {
+    width: 100%;
+    height: 100px;
+    padding: 3px;
+    border: 1px solid #ccc;
+    background: rgb(233, 233, 233);
+    margin-bottom: 10px;
+}
+.contact-us{
+    margin: 30px 0;
+}
+
+.contact-us form textarea{
+    height: 200px;
+}
+.about-us{
+    padding: 20px 0;
+    background: rgb(233, 233, 233);
+}
+.about-us .f-block{
+    margin-top: 70px;
+    text-align: center;
+}
+.about-us .f-block ul li {
+    margin-bottom: 20px;
+}
+
+.about-us h2{
+    color: #726C6C;
+}
+.about-us p{
+    color: #7F7C7C;
+}

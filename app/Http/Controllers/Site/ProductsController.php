@@ -16,7 +16,13 @@ class ProductsController extends Controller
 
     public function show($id){
         $product = (new \App\Product)->find($id);
-        return view('site.products.product', compact('product'));
+
+        $links = (new \App\Link)->links();
+        $data = (new \App\MainData)->data(['logo', 'favicon' , 'websitename', 'mail', 'address', 'phone', 'short-desc', 'short-desc-title', 'short-desc-photo', 'footer-photo']);
+
+        $social = (new \App\Social)->social(['facebook', 'twitter', 'linkedin', 'youtube', 'google', 'skype']);
+
+        return view('site.products.product', compact('product', 'links', 'data', 'social'));
 
     }
 }

@@ -1,10 +1,7 @@
 <?php
-
 namespace App\Http\Requests;
-
 use App\Http\Requests\Request;
 use Illuminate\Support\Facades\Input;
-
 class SliderCreateReqest extends Request
 {
     /**
@@ -16,7 +13,6 @@ class SliderCreateReqest extends Request
     {
         return true;
     }
-
     /**
      * Get the validation rules that apply to the request.
      *
@@ -30,14 +26,11 @@ class SliderCreateReqest extends Request
             'sort'      =>'required|int',
             'image'     =>'required|image|max:1024'
         ];
-
         if(Input::get('__method') == 'edit'){
             $rules = [
                 'image'     =>'image|max:1024'
             ];
         }
-
         return $rules;
-
     }
 }

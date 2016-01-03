@@ -33,6 +33,16 @@
                 </span>
                 <span class="file-info"></span>
             </div>
+            <div class="form-group col-sm-6">
+                <label class="radio-inline">
+                    {!! Form::radio('home', '1', false)!!}
+                    Home
+                </label>
+                <label class="radio-inline">
+                    {!! Form::radio('home', '0', false)!!}
+                    Not home
+                </label>
+            </div>
             <div class="form-group">
                 {!! Form::select('page_id', $dropdown_pages, null,["class" => "form-control", "placeholder" => "Page"]) !!}
             </div>

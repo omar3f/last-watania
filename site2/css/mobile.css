@@ -1,0 +1,17 @@
+﻿@media screen and (max-width: 991px) {
+    footer .f-block{
+        border-right: none;
+        border-bottom: 1px solid #70787a;
+    }
+    .social ul{
+        text-align: center;
+        border-top: 1px solid #f2f2f2;
+    }
+    .top-bar .contacts ul{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 604px) {
+
+}

@@ -15,7 +15,7 @@ class CreataMaindataTable extends Migration
         Schema::create('maindata', function (Blueprint $table) {
             $table->increments('id');
             $table->string('key');
-            $table->string('value');
+            $table->text('value');
             $table->timestamps();
         });
     }

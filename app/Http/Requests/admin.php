@@ -1,9 +1,6 @@
 <?php
-
 namespace App\Http\Requests;
-
 use App\Http\Requests\Request;
-
 class admin extends Request
 {
     /**
@@ -15,7 +12,6 @@ class admin extends Request
     {
         return true;
     }
-
     /**
      * Get the validation rules that apply to the request.
      *
@@ -24,7 +20,6 @@ class admin extends Request
     public function rules()
     {
         return [
-            //'name', 'email', 'password'
             'name'      =>  'required|min:5',
             'email'     =>  'required|email|unique:users',
             'password'  =>  'required|confirmed|min:6',

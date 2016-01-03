@@ -21,4 +21,13 @@ class Social extends Model
         if($config)
             return $config->value;
     }
+
+    public function social($socials) {
+        $social_links = [];
+        foreach ($socials as $social) {
+            $social_row = $this->where('key', $social)->first();
+            $social_links[$social] = count($social_row) ? $social_row->value : $social;
+        }
+        return $social_links;
+    }
 }

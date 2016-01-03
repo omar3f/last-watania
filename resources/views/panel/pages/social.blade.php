@@ -7,7 +7,7 @@
                 <h3 class="panel-title"> Social links </h3>
             </div>
             <div class="panel-body">
-                {!! Form::open(['url'=>'panel/main-data/social','class'=>'form-horizontal ls_form','files'=>true]) !!}
+                {!! Form::open(['url'=>'panel/main-data/social','class'=>'form-horizontal ls_form','files'=>true,'id'=>'social']) !!}
 
                 {!! Form::label('linkedin','LinkedIn:') !!}
                 <br>
@@ -28,7 +28,7 @@
                 <br>
                 {!! Form::text('twitter',App\Social::getValueByKey('twitter'),['class'=>'form-control']) !!}
                 <br>
-                <br>
+                <br>w
 
                 {!! Form::label('google','Google:') !!}
                 <br>
@@ -41,6 +41,12 @@
                 <br>
                 <br>
                 {!! Form::text('youtube',App\Social::getValueByKey('youtube'),['class'=>'form-control']) !!}
+                <br>
+                <br>
+                {!! Form::label('skype','Skype:') !!}
+                <br>
+                <br>
+                {!! Form::text('skype',App\Social::getValueByKey('skype'),['class'=>'form-control']) !!}
                 <br>
                 <br>
 

@@ -106,13 +106,8 @@ class LinksController extends Controller
      */
     public function destroy($id)
     {
-        //Destroying the parent
         (new \App\Link)->destroy($id);
 
-        //Destroying any child
-        (new \App\Link)->where('parent_id', $id)->delete();
-
-        //Redirecting to index so the admin can view the changes
         return redirect()->action('Panel\\LinksController@index');
 
     }

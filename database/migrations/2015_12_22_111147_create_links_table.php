@@ -16,6 +16,9 @@ class CreateLinksTable extends Migration
             $table->increments('id');
             $table->text('link');
             $table->text('title');
+            $table->integer('parent_id');
+            $table->boolean('visibility');
+            $table->integer('sort');
             $table->timestamps();
         });
     }

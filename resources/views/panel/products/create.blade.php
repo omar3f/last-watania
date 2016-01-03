@@ -4,7 +4,8 @@
     <script src="{!! asset('assets/js/tinymce/tinymce.min.js') !!}"></script>
     <script>
         tinymce.init({
-            selector: '#descriptionArea'
+            selector: '#descriptionArea',
+            plugins: 'link'
         });
     </script>
 @endsection

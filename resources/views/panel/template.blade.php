@@ -171,15 +171,24 @@
                     </a>
                     <ul style="display: block;">
                         <li>
-                            <a href="page1"> profile </a>
+                            <a href="{!!  url('panel/pages')!!}"> Pages </a>
                         </li>
                         <li>
-                            <a href="#"> page2 </a>
-                        </li>
-                        <li>
-                            <a href="#"> page2 </a>
+                            <a href="{!! action('Panel\LinksController@index') !!}"> Menu Links </a>
                         </li>
                     </ul>
+                </li>
+                <li>
+                    <a href="{{ action('Panel\SectionsController@index') }}">
+                        <i class="fa fa-list-alt"></i>
+                        <span> Sections </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ action('Panel\ProductsController@index') }}">
+                        <i class="fa fa-list-alt"></i>
+                        <span> Products </span>
+                    </a>
                 </li>
                 <li>
                     <a href="{{ url('panel/main-data/admins') }}">

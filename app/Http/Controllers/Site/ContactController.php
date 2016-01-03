@@ -11,10 +11,18 @@ use Mail;
 class ContactController extends Controller
 {
     public function contact() {
-        return view('site.contact.contact');
+
+
+        $links = (new \App\Link)->links();
+        $data = (new \App\MainData)->data(['logo', 'favicon' , 'websitename', 'mail', 'address', 'phone', 'short-desc', 'short-desc-title', 'short-desc-photo', 'footer-photo']);
+
+        $social = (new \App\Social)->social(['facebook', 'twitter', 'linkedin', 'youtube', 'google', 'skype']);
+
+
+        return view('site.contact.contact', compact('links', 'social', 'data'));
     }
 
-    public function email(Request $request) {
+    public function email(Requests\ContactRequest $request) {
         $subject            = $request->subject;
         $name               = $request->name;
         $email_to           = $request->email;

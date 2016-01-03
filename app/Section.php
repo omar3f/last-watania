@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Section extends Model
 {
-    protected $fillable = ['title', 'description', 'image', 'page_id', 'parent_id'];
+    protected $fillable = ['title', 'description', 'image', 'page_id', 'parent_id', 'home'];
 
     public function products() {
         return $this->hasMany('App\Product');
@@ -14,5 +14,9 @@ class Section extends Model
 
     public function page() {
         return $this->belongsTo('App\Page');
+    }
+
+    public function home_sections() {
+        return $this->where('home', 1)->get();
     }
 }

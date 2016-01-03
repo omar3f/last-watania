@@ -17,13 +17,14 @@ class CreateSectionsTable extends Migration
             $table->text('title');
             $table->text('description');
             $table->text('image');
+            $table->boolean('home');
             $table->integer('page_id')->unsigned();
             $table->integer('parent_id');
             $table->timestamps();
         });
 
         Schema::table('sections', function (Blueprint $table) {
-            $table->foreign('page_id')->references('id')->on('pages');
+//            $table->foreign('page_id')->references('id')->on('pages');
         });
     }
 

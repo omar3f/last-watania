@@ -54,7 +54,7 @@ class SectionsController extends Controller
     public function store(Requests\CreateEditSectionsRequest $request, StoreFile $storeFile, \App\Section $section)
     {
         //Creating and moving the file image
-        $image_path         = $storeFile->move($request->file('image'), 'public/images/sections/', 16);
+        $image_path         = $storeFile->move($request->file('image'), 'images/sections/', 16);
 
         //Adding the image file path to the array of request
         $modified_request   = array_merge($request->except('image'), ['image' => $image_path]);
@@ -85,6 +85,7 @@ class SectionsController extends Controller
      */
     public function edit($id)
     {
+
         $section = (new \App\Section)->find($id);
 
         $pages = (new \App\Page)->orderBy('id')->get();
@@ -92,7 +93,6 @@ class SectionsController extends Controller
 
         $sections = (new \App\Section)->where('parent_id', '0')->orderBy('id')->get();
         $dropdown_sections = dropdown_generator($sections, ['id' => 'title'], ['0' => 'No Parent']);
-
         return view('panel.sections.edit', compact('dropdown_pages', 'dropdown_sections', 'section'));
 
     }
@@ -104,9 +104,18 @@ class SectionsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Requests\CreateEditSectionsRequest $request, $id)
+    public function update(Request $request, $id, StoreFile $storeFile, \App\Section $section)
     {
-        (new \App\Section)->find($id)->update($request->all());
+        //Creating and moving the file image
+        $image_path         = $storeFile->move($request->file('image'), 'public/images/sections/' , 16);
+
+        //Adding the image file path to the array of request
+        $modified_request   = array_merge($request->except('image'), ['image' => $image_path]);
+
+        //Storing
+        $section->find($id)->update($modified_request);
+
+        //Redirect
         return redirect()->action('Panel\SectionsController@index');
 
     }
@@ -121,5 +130,12 @@ class SectionsController extends Controller
     {
         (new \App\Section)->destroy($id);
         return redirect()->action('Panel\SectionsController@index');
+    }
+
+    public function toggleVisibility($id) {
+        $old_visibility = (new \App\Section)->find($id)->home;
+        $new_visibility =  ($old_visibility-1) * -1;
+        (new \App\Section)->find($id)->update(['home' => $new_visibility]);
+        return redirect()->action('Panel\\SectionsController@index');
     }
 }

@@ -26,7 +26,7 @@
                 <td>{{ $product->id }}</td>
                 <td>{{ $product->title }}</td>
                 <td>{!!  $product->description  !!}</td>
-                <td><img src="{{ asset($product->image) }}" alt="" width="50%"></td>
+                <td><img src="{{ asset($product->image) }}" alt="" width="20%"></td>
                 <td>{!! (new \App\Section)->find($product->section_id)->title !!}</td>
 
 

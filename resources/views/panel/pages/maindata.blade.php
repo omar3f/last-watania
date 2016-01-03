@@ -1,4 +1,15 @@
 @extends('panel.template')
+@section('style')
+    <style href="{{ asset('assets/css/btn-file/btn-file.css') }}"></style>
+    <script src="{!! asset('assets/js/tinymce/tinymce.min.js') !!}"></script>
+    <script>
+        tinymce.init({
+            selector: '#short-desc',
+            plugins: 'link'
+        });
+    </script>
+@endsection
+
 
 @section('content')
     <div class="col-md-12">
@@ -21,6 +32,22 @@
                 <br>
 
                 {!! Form::file('favicon',['class'=>'form-control']) !!}
+                <br>
+                <br>
+
+                {!! Form::label('short-desc-photo','Short Description Photo:') !!}
+                <br>
+                <br>
+
+                {!! Form::file('short-desc-photo',['class'=>'form-control']) !!}
+                <br>
+                <br>
+
+                {!! Form::label('footer-photo','Footer Photo:') !!}
+                <br>
+                <br>
+
+                {!! Form::file('footer-photo',['class'=>'form-control']) !!}
                 <br>
                 <br>
 
@@ -55,6 +82,21 @@
                 {!! Form::text('address',App\MainData::getValueByKey('address'),['class'=>'form-control']) !!}
                 <br>
                 <br>
+
+                {!! Form::label('short-desc-title','Short Description Title:') !!}
+                <br>
+                <br>
+                {!! Form::text('short-desc-title',App\MainData::getValueByKey('short-desc-title'),['class'=>'form-control']) !!}
+                <br>
+                <br>
+
+                {!! Form::label('short-desc','Short Description:') !!}
+                <br>
+                <br>
+                {!! Form::textarea('short-desc',App\MainData::getValueByKey('short-desc'),['class'=>'form-control', 'id' => 'short-desc']) !!}
+                <br>
+                <br>
+
 
                 {!! Form::submit('save',['class'=>'btn btn-primary']) !!}
                 {!! Form::close() !!}
