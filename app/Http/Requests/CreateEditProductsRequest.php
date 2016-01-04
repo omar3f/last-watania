@@ -24,7 +24,10 @@ class CreateEditProductsRequest extends Request
     public function rules()
     {
         return [
-            //
+            'title' => 'required',
+            'content' => 'required',
+            'image' => 'required|image',
+            'section_id' => 'required'
         ];
     }
 }

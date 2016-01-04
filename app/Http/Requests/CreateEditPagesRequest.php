@@ -24,7 +24,11 @@ class CreateEditPagesRequest extends Request
     public function rules()
     {
         return [
-            //
+            'title' => 'required',
+            'url' => 'required',
+            'content' => 'required',
+            'image' => 'required|image',
+            'parent_id' => 'required'
         ];
     }
 }

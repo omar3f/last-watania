@@ -24,7 +24,13 @@ class CreateEditSectionsRequest extends Request
     public function rules()
     {
         return [
-            //
+            'title' => 'required',
+            'content' => 'required',
+            'home' => 'required',
+            'image' => 'required|image',
+            'parent_id' => 'required',
+            'page_id' => 'required'
+
         ];
     }
 }

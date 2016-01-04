@@ -24,7 +24,10 @@ class ContactRequest extends Request
     public function rules()
     {
         return [
-            //
+            'name' => 'required',
+            'email'     => 'required|email',
+            'subject'   => 'required',
+            'message' => 'required'
         ];
     }
 }
