@@ -25,7 +25,7 @@ class CreateEditProductsRequest extends Request
     {
         return [
             'title' => 'required',
-            'content' => 'required',
+            'description' => 'required',
             'image' => 'required|image',
             'section_id' => 'required'
         ];

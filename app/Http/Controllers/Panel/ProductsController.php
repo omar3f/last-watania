@@ -51,6 +51,8 @@ class ProductsController extends Controller
      */
     public function store(Requests\CreateEditProductsRequest $request, StoreFile $storeFile, \App\Product $product)
     {
+
+//        (new \App\Gallery)->create(['resource' => 'product', 'resource_id']);
         //Creating and moving the file image
         $image_path         = $storeFile->move($request->file('image'), 'images/products/' , 16);
 
@@ -58,11 +60,20 @@ class ProductsController extends Controller
         $modified_request   = array_merge($request->except('image'), ['image' => $image_path]);
 
         //Storing
-        $product->create($modified_request);
+        $last_id = $product->create($modified_request)->id;
+
+
+        //Creating and moving the file sub_image
+        $sub_image_path         = $storeFile->move($request->file('sub_image'), 'images/gallery/products/' , 16);
+
+        (new \App\Gallery)->create(['resource' => 'product', 'resource_id' => $last_id, 'image' => $sub_image_path]);
 
         //Redirect
         return redirect()->action('Panel\ProductsController@index');
+
+
     }
+
 
     /**
      * Display the specified resource.

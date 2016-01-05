@@ -22,6 +22,8 @@ Route::get('/panel/sections/visibility/{id}', 'Panel\SectionsController@toggleVi
 
 //Routing for products
 Route::resource('/panel/products', 'Panel\ProductsController');
+Route::get('panel/products/{id}/sub-images', 'Panel\ProductsSubImagesController@index');
+Route::delete('panel/products/{id}/sub-images/{sub_image_id}', 'Panel\ProductsSubImagesController@destroy');
 
 //Routing for pages
 Route::resource('/panel/pages', 'Panel\PagesController');

@@ -17,9 +17,21 @@
                         <div class="main-img">
                             <img src="{!! asset($product->image) !!}" alt="">
                         </div>
+                        @if(count($product->sub_images()))
+                            <ul class="list-unstyled">
+                                @foreach($product->sub_images() as $sub_image)
+                                <li class="col-xs-4">
+                                    <img src="{!! asset($sub_image->image) !!}" class="img" alt="">
+                                </li>
+
+                                @endforeach
+
+                            </ul>
+                        @endif
 
                     </div>
                 </div>
+
             </div>
         </div>
     </div>

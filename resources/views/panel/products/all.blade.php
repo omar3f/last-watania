@@ -14,8 +14,8 @@
         <tr>
             <td>#</td>
             <td>Title</td>
-            <td>Description</td>
             <td>Image</td>
+            <td>Sub-Images</td>
             <td>Section</td>
             <td>Actions</td>
 
@@ -25,8 +25,8 @@
             <tr>
                 <td>{{ $product->id }}</td>
                 <td>{{ $product->title }}</td>
-                <td>{!!  $product->description  !!}</td>
                 <td><img src="{{ asset($product->image) }}" alt="" width="20%"></td>
+                <td><a href="{!! action('Panel\ProductsSubImagesController@index', $product->id) !!}">Sub-Images</a></td>
                 <td>{!! (new \App\Section)->find($product->section_id)->title !!}</td>
 
 

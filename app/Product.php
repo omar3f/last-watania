@@ -13,4 +13,8 @@ class Product extends Model
         return $this->belongsTo('App\Section');
     }
 
+
+    public function sub_images() {
+        return (new \App\Gallery)->where('resource', 'product')->where('resource_id', $this->id)->get();
+    }
 }

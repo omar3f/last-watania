@@ -9,5 +9,4 @@
 @endsection
 @section('footer')
     @include('site.footer.footer', compact('social', 'data'))
-
 @endsection

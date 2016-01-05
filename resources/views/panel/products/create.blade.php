@@ -36,6 +36,13 @@
             </div>
 
             <div class="form-group">
+                <span class="btn btn-primary">
+                    Upload a Sub-Image{!! Form::file('sub_image') !!}
+                </span>
+                <span class="file-info"></span>
+            </div>
+
+            <div class="form-group">
                 {!! Form::select('section_id', $dropdown_sections, null,["class" => "form-control", "placeholder" => "Section"]) !!}
             </div>
             <div class="form-group">
