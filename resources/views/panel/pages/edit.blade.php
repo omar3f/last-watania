@@ -31,10 +31,7 @@
                 {!! Form::textarea('content', null, ['id' => 'descriptionArea', "class" => "form-control", "placeholder" => "Description"]) !!}
             </div>
             <div class="form-group">
-                <span class="btn btn-primary btn-file">
-                    Upload Image{!! Form::file('image') !!}
-                </span>
-                <span class="file-info"></span>
+                Upload Image{!! Form::file('image') !!}
             </div>
 
             <div class="form-group">

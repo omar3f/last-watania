@@ -35,11 +35,9 @@ class ProductsController extends Controller
      */
     public function create()
     {
-
         $sections = (new \App\Section)->orderBy('id')->get();
         $dropdown_sections = dropdown_generator($sections, ['id' => 'title']);
         return view('panel.products.create', compact('dropdown_sections'));
-
     }
 
     /**
@@ -49,24 +47,19 @@ class ProductsController extends Controller
      * @param StoreFile $storeFile
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function store(Requests\CreateEditProductsRequest $request, StoreFile $storeFile, \App\Product $product)
+    public function store(Requests\Products\CreateProductRequest $request, StoreFile $storeFile, \App\Product $product)
     {
-
-//        (new \App\Gallery)->create(['resource' => 'product', 'resource_id']);
-        //Creating and moving the file image
         $image_path         = $storeFile->move($request->file('image'), 'images/products/' , 16);
+        $modified_request   = array_merge($request->all(), ['image' => $image_path]);
 
-        //Adding the image file path to the array of request
-        $modified_request   = array_merge($request->except('image'), ['image' => $image_path]);
 
-        //Storing
         $last_id = $product->create($modified_request)->id;
 
+        if ($request->hasFile('sub-image')) {
+            $sub_image_path         = $storeFile->move($request->file('sub-image'), 'images/gallery/products/sub-images/' , 16);
+            (new \App\Gallery)->create(['resource' => 'product', 'resource_id' => $last_id, 'image' => $sub_image_path]);
+        }
 
-        //Creating and moving the file sub_image
-        $sub_image_path         = $storeFile->move($request->file('sub_image'), 'images/gallery/products/' , 16);
-
-        (new \App\Gallery)->create(['resource' => 'product', 'resource_id' => $last_id, 'image' => $sub_image_path]);
 
         //Redirect
         return redirect()->action('Panel\ProductsController@index');
@@ -110,18 +103,23 @@ class ProductsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id, StoreFile $storeFile, \App\Product $product)
+    public function update(Requests\Products\EditProductRequest $request, $id, StoreFile $storeFile, \App\Product $product)
     {
-        //Creating and moving the file image
-        $image_path         = $storeFile->move($request->file('image'), 'public/images/products/' , 16);
+        if ($request->hasFile('image')) {
+            $image_path         = $storeFile->move($request->file('image'), 'images/products/' , 16);
+            $modified_request   = array_merge($request->all(), ['image' => $image_path]);
 
-        //Adding the image file path to the array of request
-        $modified_request   = array_merge($request->except('image'), ['image' => $image_path]);
+        } else {
+            $modified_request = $request->except('image');
+        }
 
-        //Storing
-        $product->find($id)->update($modified_request);
+        $product->findOrFail($id)->update($modified_request);
 
-        //Redirect
+        if ($request->hasFile('sub-image')) {
+            $sub_image_path         = $storeFile->move($request->file('sub-image'), 'images/gallery/products/' , 16);
+            (new \App\Gallery)->create(['resource' => 'product', 'resource_id' => $id, 'image' => $sub_image_path]);
+        }
+
         return redirect()->action('Panel\ProductsController@index');
 
     }

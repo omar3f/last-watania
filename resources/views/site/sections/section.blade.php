@@ -1,5 +1,9 @@
 @extends('site.template')
+@section('styles')
 
+    <link rel="icon" type="image/png" href="{!! asset($data['favicon']) !!}">
+
+@endsection
 @section('content')
     @include('site.header.header', compact('social', 'data'))
     @include('site.menu.menu', compact('links'))

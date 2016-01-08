@@ -132,7 +132,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/auth/logout">
+                    <a href="{!! url('auth/logout') !!}">
                         <i class="fa fa-sign-out"></i> <span>Logout</span>
                     </a>
                 </li>
@@ -147,7 +147,7 @@
                         </li>
 
                         <li>
-                            <a href="{{ url('panel/main-data/social') }}"> Social links </a>
+                            <a href="{{ url('panel/main-data/social') }}"> Social Links </a>
                         </li>
 
                     </ul>
@@ -155,29 +155,22 @@
                 <li>
                     <a href="{{ url('panel/slider') }}">
                         <i class="fa fa-list-alt"></i>
-                        <span> slider </span>
+                        <span> Sliders </span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="{{ action('Panel\LinksController@index') }}">
                         <i class="fa fa-list-alt"></i>
-                        <span> Top Menu </span>
+                        <span> Menu Links </span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="{{ action('Panel\PagesController@index') }}">
                         <i class="fa fa-list-alt"></i>
                         <span> Pages </span>
                     </a>
-                    <ul style="display: block;">
-                        <li>
-                            <a href="{!!  url('panel/pages')!!}"> Pages </a>
-                        </li>
-                        <li>
-                            <a href="{!! action('Panel\LinksController@index') !!}"> Menu Links </a>
-                        </li>
-                    </ul>
                 </li>
+
                 <li>
                     <a href="{{ action('Panel\SectionsController@index') }}">
                         <i class="fa fa-list-alt"></i>

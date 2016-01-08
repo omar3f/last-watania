@@ -29,6 +29,8 @@
                         {!! Form::submit('Send', ['class' => 'form-control btn btn-primary']) !!}
                         </div>
                         {!! Form::close() !!}
+
+                        @include('panel.includes.validation_errors')
                     </div>
                 </div>
             </div>

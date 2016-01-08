@@ -21,7 +21,6 @@
         <tr>
             <td>#</td>
             <td>Title</td>
-            <td>Content</td>
             <td>Image</td>
             <td>URL</td>
             <td>Actions</td>
@@ -32,7 +31,6 @@
             <tr>
                 <td>{{ $page->id }}</td>
                 <td>{{ $page->title }}</td>
-                <td>{!!  $page->content  !!}</td>
                 <td><img src="{{ asset($page->image) }}" alt="" width="20%"></td>
 
                 <td>{!!  $page->url  !!}</td>

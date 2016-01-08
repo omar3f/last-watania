@@ -12,7 +12,7 @@
     <div class="row">
         <div class="col-sm-6 text-center">
             <h1>
-                Create a new section
+                Edit {{ $product->title }}
             </h1>
             <hr>
 
@@ -28,22 +28,16 @@
                 {!! Form::textarea('description', null, ["id" => 'descriptionArea', "class" => "form-control", "placeholder" => "Description"]) !!}
             </div>
             <div class="form-group">
-                <span class="btn btn-primary btn-file">
                     Upload Image{!! Form::file('image') !!}
-                </span>
-                <span class="file-info"></span>
             </div>
             <div class="form-group">
-                <span class="btn btn-primary btn-file">
-                    Upload a Sub-Image{!! Form::file('sub_image') !!}
-                </span>
-                <span class="file-info"></span>
+                    Upload a Sub-Image{!! Form::file('sub-image') !!}
             </div>
             <div class="form-group">
                 {!! Form::select('section_id', $dropdown_sections, null,["class" => "form-control", "placeholder" => "Section"]) !!}
             </div>
             <div class="form-group">
-                {!! Form::submit('Create new product', ['class' => 'btn btn-primary']) !!}
+                {!! Form::submit('Edit product', ['class' => 'btn btn-primary']) !!}
             </div>
             {!! Form::close() !!}
         </div>

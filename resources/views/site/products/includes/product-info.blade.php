@@ -23,7 +23,6 @@
                                 <li class="col-xs-4">
                                     <img src="{!! asset($sub_image->image) !!}" class="img" alt="">
                                 </li>
-
                                 @endforeach
 
                             </ul>

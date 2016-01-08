@@ -3,7 +3,8 @@
 @section('content')
 <div class="row">
     <div class="col-sm-6">
-        <h1>The product's sub-images</h1>
+        <h1>{{$product->title}} sub-images</h1>
+
         <hr>
     </div>
 </div>

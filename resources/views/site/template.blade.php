@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="{!! asset('site/css/owl.carousel.css') !!}">
     <link rel="stylesheet" href="{!! asset('site/css/owl.theme.css') !!}">
     <link rel="stylesheet" href="{!! asset('site/css/owl.transitions.css') !!}">
+
     <!--<link rel="stylesheet" href="css/english.css">-->
     @yield('styles')
 

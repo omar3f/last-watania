@@ -27,7 +27,7 @@
                 {!! Form::select('parent_id', $dropdown_links, null ,["class" => "form-control"]) !!}
             </div>
             <div class="form-group">
-                {!! Form::text('sort', null, ["class" => "form-control", "placeholder" => "Sort"]) !!}
+                {!! Form::input('number', 'sort', null, ["class" => "form-control", "placeholder" => "Sort"]) !!}
             </div>
             <div class="form-group">
                     {!! Form::submit('Create Link', ["class" => "btn btn-primary"]) !!}

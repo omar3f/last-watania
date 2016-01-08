@@ -14,7 +14,6 @@
         <tr>
             <td>#</td>
             <td>Title</td>
-            <td>Description</td>
             <td>Image</td>
             <td>Page</td>
             <td>Parent</td>
@@ -28,7 +27,6 @@
             <tr>
                 <td>{{ $section->id }}</td>
                 <td>{{ $section->title }}</td>
-                <td>{!!  $section->description  !!}</td>
                 <td><img src="{{ asset($section->image) }}" alt="" width="20%"></td>
                 <td>{!! $section->page ? $section->page->title : '' !!}</td>
                 <td>{{ $section->parent_id ? (new App\Section)->find($section->parent_id)->title : 'No Parent' }}</td>

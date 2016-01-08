@@ -51,15 +51,14 @@ class SectionsController extends Controller
      * @param \App\Section $section
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function store(Requests\CreateEditSectionsRequest $request, StoreFile $storeFile, \App\Section $section)
+    public function store(Requests\Sections\CreateSectionRequest $request, StoreFile $storeFile, \App\Section $section)
     {
-        //Creating and moving the file image
+
         $image_path         = $storeFile->move($request->file('image'), 'images/sections/', 16);
+        $modified_request   = array_merge($request->all(), ['image' => $image_path]);
 
-        //Adding the image file path to the array of request
-        $modified_request   = array_merge($request->except('image'), ['image' => $image_path]);
 
-        //Storing
+
         $section->create($modified_request);
 
         //Redirect
@@ -104,16 +103,21 @@ class SectionsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id, StoreFile $storeFile, \App\Section $section)
+    public function update(Requests\Sections\EditSectionRequest $request, $id, StoreFile $storeFile, \App\Section $section)
     {
-        //Creating and moving the file image
-        $image_path         = $storeFile->move($request->file('image'), 'public/images/sections/' , 16);
+        if ($request->hasFile('image')) {
+            //Creating and moving the file image
+            $image_path         = $storeFile->move($request->file('image'), 'public/images/sections/' , 16);
 
-        //Adding the image file path to the array of request
-        $modified_request   = array_merge($request->except('image'), ['image' => $image_path]);
+            //Adding the image file path to the array of request
+            $modified_request   = array_merge($request->except('image'), ['image' => $image_path]);
+
+        } else {
+            $modified_request = $request->except('image');
+        }
 
         //Storing
-        $section->find($id)->update($modified_request);
+        $section->findOrFail($id)->update($modified_request);
 
         //Redirect
         return redirect()->action('Panel\SectionsController@index');

@@ -1,10 +1,11 @@
 <?php
 
-namespace App\Http\Requests;
+namespace App\Http\Requests\Sections;
 
 use App\Http\Requests\Request;
+use Illuminate\Support\Facades\Auth;
 
-class CreateEditProductsRequest extends Request
+class EditSectionRequest extends Request
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -13,7 +14,7 @@ class CreateEditProductsRequest extends Request
      */
     public function authorize()
     {
-        return true;
+        return Auth::check();
     }
 
     /**
@@ -26,8 +27,9 @@ class CreateEditProductsRequest extends Request
         return [
             'title' => 'required',
             'description' => 'required',
-            'image' => 'required|image',
-            'section_id' => 'required'
+            'home' => 'required|boolean',
+            'page_id' => 'required',
+            'parent_id' => 'required'
         ];
     }
 }

@@ -98,7 +98,7 @@
                 <br>
 
 
-                {!! Form::submit('save',['class'=>'btn btn-primary']) !!}
+                {!! Form::submit('Save',['class'=>'btn btn-primary']) !!}
                 {!! Form::close() !!}
 
             </div>

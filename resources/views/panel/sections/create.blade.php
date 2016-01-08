@@ -4,7 +4,9 @@
     <script src="{!! asset('assets/js/tinymce/tinymce.min.js') !!}"></script>
     <script>
         tinymce.init({
-            selector: '#descriptionArea'
+            selector: '#descriptionArea',
+            plugins: 'link'
+
         });
     </script>
 @endsection
@@ -28,10 +30,7 @@
                 {!! Form::textarea('description', null, ["id" => 'descriptionArea', "class" => "form-control", "placeholder" => "Description"]) !!}
             </div>
             <div class="form-group">
-                <span class="btn btn-primary btn-file">
-                    Upload Image{!! Form::file('image') !!}
-                </span>
-                <span class="file-info"></span>
+                Upload Image{!! Form::file('image') !!}
             </div>
             <div class="form-group col-sm-6">
                 <label class="radio-inline">

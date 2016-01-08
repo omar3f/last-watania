@@ -12,7 +12,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img src="{!! asset($data['logo']) !!}" alt=""></a>
+                <a class="navbar-brand" href="{{url('/')}}"><img src="{!! asset($data['logo']) !!}" alt=""></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -29,7 +29,7 @@
                                 <ul class="dropdown-menu">
 
                                     @foreach($children = $link->getVisibleChildren() as $child)
-                                        <li><a href="{!! $child->link !!}">{!! $child->title !!}</a></li>
+                                        <li><a href="{!! url($child->link) !!}">{!! $child->title !!}</a></li>
                                     @endforeach
                                 </ul>
                             </li>
@@ -41,6 +41,12 @@
                         @endif
 
                     @endforeach
+                        <li>
+                            <a href="{!! action('Site\PagesController@show', 'about-us') !!}">About Us</a>
+                        </li>
+                        <li>
+                            <a href="{!! url('contact') !!}">Contact</a>
+                        </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

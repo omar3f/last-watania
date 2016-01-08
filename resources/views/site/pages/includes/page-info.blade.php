@@ -1,25 +1,15 @@
 <div class="row">
-    <div class="col-sm-6">
-
-        <h1 class="text-center">This is a page: {!! $page->title !!}</h1>
+    <div class="col-sm-12 text-center">
+        <h1>{{$page->title}}</h1>
         <hr>
-        <div>
-            <b>ID: </b><p>{!! $page->id !!}</p>
-        </div>
-        <div>
-            <b>URL: </b><p>{!! $page->url !!}</p>
-        </div>
-        <div>
-            <b>Parent ID: </b><p>{!! $page->parent_id !!}</p>
-        </div>
-        <div>
-            <b>Title: </b><p>{!! $page->title !!}</p>
-        </div>
-        <div>
-            <b>Description: </b><p>{!! $page->content !!}</p>
-        </div>
-        <div>
-            <b>Image: </b><img src="{!! asset($page->image) !!}" alt="">
-        </div>
+    </div>
+
+</div>
+<div class="row">
+    <div class="col-sm-6">
+       {!! $page->content !!}
+    </div>
+    <div class="col-sm-6">
+        <img src="{!! asset($page->image) !!}" alt="">
     </div>
 </div>

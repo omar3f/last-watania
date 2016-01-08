@@ -28,7 +28,7 @@
                 <input type="hidden" value="{!! $link->id !!}" name="id_hidden">
             </div>
             <div class="form-group">
-                {!! Form::text('sort', null, ["class" => "form-control", "placeholder" => "Sort"]) !!}
+                {!! Form::input('number', 'sort', null, ["class" => "form-control", "placeholder" => "Sort"]) !!}
             </div>
             <div class="form-group">
                 {!! Form::submit('Edit Link', ["class" => "btn btn-primary edit-btn"]) !!}

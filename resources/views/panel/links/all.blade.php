@@ -16,6 +16,8 @@
             <td>Title</td>
             <td>Parent</td>
             <td>Status</td>
+            <td>Sort</td>
+
             <td>Action</td>
         </tr>
 
@@ -38,6 +40,7 @@
                     </div>
 
                 </td>
+                <td>{{$link->sort}}</td>
 
                 <td>
                     <div class="row">

@@ -29,15 +29,16 @@ class PagesController extends Controller
         $dropdown_pages = dropdown_generator($pages, ['id' => 'title'], ['0' => 'No Parent']);
         return view('panel.pages.create',compact('dropdown_pages'));
     }
-    public function store(Requests\CreateEditPagesRequest $request, StoreFile $storeFile, \App\Page $page)
+    public function store(Requests\Pages\CreatePageRequest $request, StoreFile $storeFile, \App\Page $page)
     {
-        //Creating and moving the file image
-        $image_path         = $storeFile->move($request->file('image'), 'images/pages/' , 16);
+        if($request->hasFile('image')) {
+            $image_path         = $storeFile->move($request->file('image'), 'images/pages/' , 16);
+            $modified_request   = array_merge($request->all(), ['image' => $image_path]);
 
-        //Adding the image file path to the array of request
-        $modified_request   = array_merge($request->except('image'), ['image' => $image_path]);
+        } else {
+            $modified_request = $request->except('image');
+        }
 
-        //Storing
         $page->create($modified_request);
 
         //Redirect
@@ -54,16 +55,16 @@ class PagesController extends Controller
         $dropdown_pages = dropdown_generator($pages, ['id' => 'title'], ['0' => 'No Parent']);
         return view('panel.pages.edit', compact('page', 'dropdown_pages'));
     }
-    public function update(Requests\CreateEditPagesRequest $request, $id, StoreFile $storeFile, \App\Page $page)
+    public function update(Requests\Pages\EditPageRequest $request, $id, StoreFile $storeFile, \App\Page $page)
     {
-        //Creating and moving the file image
-        $image_path         = $storeFile->move($request->file('image'), 'public/images/pages/' , 16);
+        if($request->hasFile('image')) {
+            $image_path         = $storeFile->move($request->file('image'), 'images/pages/' , 16);
+            $modified_request   = array_merge($request->all(), ['image' => $image_path]);
 
-        //Adding the image file path to the array of request
-        $modified_request   = array_merge($request->except('image'), ['image' => $image_path]);
-
-        //Storing
-        $page->find($id)->update($modified_request);
+        } else {
+            $modified_request = $request->except('image');
+        }
+        $page->findOrFail($id)->update($modified_request);
 
         //Redirect
         return redirect()->action('Panel\PagesController@index');
