@@ -47,7 +47,7 @@
                 <div class="sec-sups">
                     <ul class="nav nav-pills">
 
-                        <li><a href="{!! url($section->page->url) !!}"> {!! $section->page->title  !!}</a> </li>
+                        <li><a href="{!! action('Site\PagesController@show', $section->page->url) !!}"> {!! $section->page->title  !!}</a> </li>
 
                     </ul>
                 </div>
@@ -81,7 +81,7 @@
                                     <a href="{!! action('Site\ProductsController@show', $product->id) !!}">{!! $product->title !!}  </a>
 
                                     <p class="product-desc">
-                                                                {!! $product->description !!}
+                                                                
                                     </p>
                                 </div>
                             </div>

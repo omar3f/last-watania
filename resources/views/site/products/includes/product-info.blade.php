@@ -2,7 +2,7 @@
 
     <div class="product">
         <div class="container">
-            <span class="sec-name"> {!! $product->section->title !!} </span>
+            <span class="sec-name"> <a href="{!! action('Site\SectionsController@show', $product->section->id) !!}">{!! $product->section->title !!}</a></span>
 
             <h1> {!! $product->title !!} </h1>
 
